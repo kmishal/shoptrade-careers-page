@@ -113,10 +113,11 @@ body {
     font-size: 24px;
     line-height: 28px;
     transition: 0.3s ease-in;
+    text-decoration: none;
 }
 
 .section_1 .block_right .block_btn-style:hover {
-    color: #000000;
+    text-decoration: underline;
     transition: 0.3s ease-in;
 }
 
@@ -264,8 +265,16 @@ body {
 }
 
 .section .sec_dis {
-    font-size: 19px;
+    font-size: 20px;
     color: #ffffff;
     letter-spacing: 1.2;
     margin-top: 19px;
+}
+
+.section .sec_dis a {
+    text-decoration: none;
+}
+
+.section .sec_dis a:hover {
+    text-decoration: underline;
 }
