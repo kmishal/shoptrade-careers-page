@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* Common classes */
+
+.d--flex {
+    display: flex;
+}
+
+.d--justCenter {
+    justify-content: center;
+}
+
+.d--justSpaceBtw {
+    justify-content: space-between;
+}
+
+.d--alignCenter {
+    align-items: center;
+}
+
+.main_wrapper {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.f--bold {
+    font-weight: bold;
+}
+
+.mt--85 {
+    margin-top: 85px;
+}
+
+.text--orange {
+    color: #ed4e08;
+}
+
+.text--black {
+    color: #000000;
+}
+.bg--orange {
+    background: #ed4e08;
+}
+/* Common style ends */
+
+.wrapper--container {
+    max-width: 1364px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section h3,
+.section h1 {
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+/* Section 1 style */
+.section_1 {
+    min-height: 493px;
+    padding-bottom: 20px;
+}
+
+.section h1 {
+    color: #000000;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+.section h2 {
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 26px;
+    max-width: 588px;
+}
+
+.section_1 .block_left {
+    max-width: 588px;
+    width: 100%;
+}
+
+.section_1 .block_right {
+    max-width: 340px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.section_1 .block_right .block_btn-style {
+    width: 100%;
+    height: 72px;
+    border-radius: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    transition: 0.3s ease-in;
+}
+
+.section_1 .block_right .block_btn-style:hover {
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+/* Section 1 ends */
+
+.section_2 {
+    margin-top: 139px;
+}
+
+/* section styles */
+.section_card-wrapper {
+    margin-top: 45px;
+}
+
+/* card styles */
+.section_card {
+    max-width: 398px;
+    width: 100%;
+    min-height: 320px;
+    padding: 10px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.section_card:last-child {
+    margin-right: 0px;
+}
+
+.card_icon .icon--style svg {
+    max-width: 91px;
+    width: 100%;
+    height: auto;
+}
+
+.section_text {
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 0;
+    max-width: 232px;
+    width: 100%;
+    margin-top: 45px;
+    transition: 0.3s ease-in;
+}
+
+.hover_icon {
+    display: none;
+}
+
+.section_card:hover {
+    background: #ffffff;
+    transition: 0.3s ease-in;
+}
+
+.section_card:hover .default_icon {
+    display: none;
+    transition: 0.3s ease-in;
+}
+
+.section_card:hover .hover_icon {
+    display: block;
+    transition: 0.3s ease-in;
+}
+
+.section_card:hover .section_text {
+    color: #000000;
+    transition: 0.3s ease-in;
+}
+
+/* Section 3 styles */
+.section_3 {
+    margin-top: 198px;
+    margin-bottom: 190px;
+}
+
+.head-icon {
+    max-width: 28px;
+    width: 100%;
+    height: 28px;
+    border-radius: 50%;
+    background: #ed4e08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon--check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 14px;
+    width: 8px;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    margin-top: -4px;
+}
+
+.section_3 h3 {
+    max-width: 501px;
+    width: 100%;
+}
+.section_3 .section_wrapper {
+    margin-top: 108px;
+}
+
+.section_text-card {
+    margin-right: 20px;
+}
+
+.section_text-card:last-child {
+    margin-right: 0px;
+}
+
+.section_text-card .head-text,
+.section_text-card .section_text-para {
+    color: #ffffff;
+}
+
+.section_text-card .head-text {
+    margin-left: 11px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+}
+
+.section_text-card .section_text-para {
+    font-size: 20px;
+    line-height: 34px;
+    max-width: 402px;
+    margin-top: 20px;
+}
+
+/* Section 4 => Discliamer stlyes */
+.section_4 {
+    padding-top: 139px;
+    border-top: 1px solid #ffffff;
+}
+
+.section .sec_dis {
+    font-size: 19px;
+    color: #ffffff;
+    letter-spacing: 1.2;
+    margin-top: 19px;
+}
