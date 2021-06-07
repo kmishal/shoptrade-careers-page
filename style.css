@@ -57,6 +57,10 @@ body {
 
 /* Common style ends */
 
+.section p {
+    margin-bottom: 0;
+}
+
 .wrapper--container {
     max-width: 1364px;
     width: 100%;
