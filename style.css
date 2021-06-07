@@ -439,6 +439,7 @@ body {
     font-weight: 700;
     color: #ffffff;
     letter-spacing: 0;
+    transition: 0.2s ease-in;
 }
 
 .section .list_flex-wrap {
@@ -448,6 +449,7 @@ body {
 .section .job-cta-wrap {
     margin-left: 15px;
     visibility: hidden;
+    transition: 0.1s ease-out;
 }
 
 .section .job-cta-wrap a.location-info {
@@ -477,6 +479,7 @@ body {
     line-height: 1.2;
     text-transform: uppercase;
     color: #707070;
+    transition: 0.2s ease-in;
 }
 
 .section .center_dot {
@@ -487,27 +490,33 @@ body {
     border-radius: 50%;
     vertical-align: middle;
     margin: -4px 5px 0;
+    transition: 0.2s ease-in;
 }
 
 /* Hover state for job listing  card */
 .section .job-list li:hover {
     background: #ffffff;
+    transition: 0.2s ease-in;
 }
 
 .section .job-list li:hover .job-title {
     color: #ed4e08;
+    transition: 0.2s ease-in;
 }
 .section .job-list li:hover .job_type,
 .section .job-list li:hover .job_location_wrap {
     color: #000000;
+    transition: 0.2s ease-in;
 }
 
 .section .job-list li:hover .center_dot {
     background: #000000;
+    transition: 0.2s ease-in;
 }
 
 .section .job-list li:hover .job-cta-wrap {
     visibility: visible;
+    transition: 0.2s ease-in;
 }
 
 /* job listing ends */
