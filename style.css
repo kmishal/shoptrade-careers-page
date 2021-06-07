@@ -341,7 +341,7 @@ body {
     border-radius: 72px;
     background: #ed4e08;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
@@ -463,7 +463,7 @@ body {
     align-items: center;
     min-height: 72px;
     border-radius: 72px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 24px;
     line-height: 1.2;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
