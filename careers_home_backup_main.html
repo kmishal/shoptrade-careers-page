@@ -1,0 +1,80 @@
+<!--DOCTYPE html-->
+<div class="index-banner" {{portal |banner}}></div>
+<div class="search">
+    <div class="content">
+        {% snippet job_search_form %}</div>
+</div>
+<div class="content">
+    <h3 class="page-title">
+        {{"portal.jobs.title"| t}}
+    </h3>
+    {% if jobs.size > 0 %}
+    <div class="job-role-list">
+        {% assign available_positions = jobs | open_positions %}
+        {% assign roles = jobs | map: "job_role" | uniq %}
+        <ul {% if jobs.size <=10 and roles.size <=4 %} class="open-list" {% endif %}>
+            {% for role in roles%}
+            <li>
+                <input type="radio" name="accordion">
+                <div class="role-title">
+                    <h5>
+                        {{role.name | escape}}
+                        <span class="mobile-role-count">
+                            - {{ available_positions[role.name].size }} {{"portal.jobs.openings" | t}}
+                        </span>
+                    </h5>
+                    <div class="role-count">
+                        {{ available_positions[role.name].size }} {{"portal.jobs.openings" | t}}
+                    </div>
+                </div>
+                <div class="hidden-content">
+                    <ul class="job-list">
+                        {% for job in jobs %}
+                        {%if job.job_role.name == role.name%}
+                        <li class="heading">
+                            <div class="row">
+                                <div class="job-list-info">
+                                    <a href="{{ job.job_url }}" class="job-title">{{ job.title | escape}}</a>
+                                    <a href="{{ job.job_url }}" class="job-desc text">
+                                        {{ job.description | strip_html | slice: 0, 110 }}...
+                                    </a>
+                                </div>
+                                <div class="job-location">
+                                    <a href="{{ job.job_url }}" class="location-info">
+                                        {% if job.remote != true %}
+                                        {% if job.branch.state != blank and job.branch.city != blank%}
+                                        {{ job.branch.city }}, {{job.branch.state}}
+                                        {% elsif job.branch.city != blank %}
+                                        {{ job.branch.city}}
+                                        {% elsif job.branch.state != blank %}
+                                        {{ job.branch.state}}
+                                        {% else %}
+                                        {{ job.branch.name }}
+                                        {% endif %}
+                                        {% else %}
+                                        Remote
+                                        {% endif %}<br />
+                                        {{ job.job_type }}
+                                    </a>
+                                    <a href="{{ job.job_url }}" class="location-icon">
+                                        <i class="icon-arrow-right "></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </li>
+            {% endfor %}
+            </li>
+        </ul>
+    </div>
+    {% else %}
+    <pre class="text-center">
+<h3 class="text-muted ">{{"portal.jobs.no_job"| t}}</h3>
+</pre>
+    {% endif %}
+</div>
