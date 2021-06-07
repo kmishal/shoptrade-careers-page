@@ -489,6 +489,27 @@ body {
     margin: -4px 5px 0;
 }
 
+/* Hover state for job listing  card */
+.section .job-list li:hover {
+    background: #ffffff;
+}
+
+.section .job-list li:hover .job-title {
+    color: #ed4e08;
+}
+.section .job-list li:hover .job_type,
+.section .job-list li:hover .job_location_wrap {
+    color: #000000;
+}
+
+.section .job-list li:hover .center_dot {
+    background: #000000;
+}
+
+.section .job-list li:hover .job-cta-wrap {
+    visibility: visible;
+}
+
 /* job listing ends */
 
 /* Section 4  ends*/

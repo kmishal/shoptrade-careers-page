@@ -1159,9 +1159,9 @@
                                             {% for job in jobs %}
                                             {%if job.job_role.name == role.name%}
                                             <li class="heading d--flex d--alignCenter">
-                                                <div class="list_flex-wrap d--flex d--justSpaceBtw">
+                                                <div class="list_flex-wrap d--flex d--justSpaceBtw d--alignCenter">
                                                     <div class="job-list-info">
-                                                        <a href="{{ job.job_url }}" class="job-title">{{ job.title | escape}}</a>
+                                                        <a class="job-title">{{ job.title | escape}}</a>
                                                         <div class="job-location">
                                                             <div class="location-info">
                                                                 <span class="job_type">
