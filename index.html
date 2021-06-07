@@ -14,7 +14,7 @@
 <body>
     <div class="main_wrapper">
         <!-- section 1 => Banner area  -->
-        <section class="section_1 section d--flex d--alignCenter" style="background: #ffffff">
+        <section class="section_1 section d--flex d--alignCenter" {{portal |banner}}>
             <div class="wrapper--container">
                 <div class="d--flex d--alignCenter d--justSpaceBtw block_wrapper">
                     <div class="block_left">
@@ -34,1072 +34,1186 @@
             </div>
         </section>
         <!-- Section 1 ends -->
-        <div class="wrapper--container">
-            <!-- Section 2 => Aweseme perks  -->
-            <section class="section_2 section">
-                <h3>We’ve Got Awesome Perks!</h3>
-                <div class="section_card-wrapper">
-                    <!-- row 1 -->
-                    <div class="d--flex d--justSpaceBtw">
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?>
-                                    <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        x="0px" y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
+        <div class="section_black-bg">
+            <div class="wrapper--container">
+                <!-- Section 2 => Aweseme perks  -->
+                <section class="section_2 section">
+                    <h3>We’ve Got Awesome Perks!</h3>
+                    <div class="section_card-wrapper">
+                        <!-- row 1 -->
+                        <div class="d--flex d--justSpaceBtw">
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?>
+                                        <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
+                                            style="enable-background:new 0 0 250 250;" xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
                                             <g>
-                                                <path class="st3" d="M111.67,129.68c-34.53,0-62.62-28.09-62.62-62.62S77.14,4.44,111.67,4.44s62.62,28.09,62.62,62.62
-                                                                    			S146.2,129.68,111.67,129.68z M111.67,22.6c-24.51,0-44.46,19.94-44.46,44.46s19.94,44.46,44.46,44.46s44.46-19.94,44.46-44.46
-                                                                    			S136.19,22.6,111.67,22.6z" />
+                                                <g>
+                                                    <path class="st3" d="M111.67,129.68c-34.53,0-62.62-28.09-62.62-62.62S77.14,4.44,111.67,4.44s62.62,28.09,62.62,62.62
+                                                                                			S146.2,129.68,111.67,129.68z M111.67,22.6c-24.51,0-44.46,19.94-44.46,44.46s19.94,44.46,44.46,44.46s44.46-19.94,44.46-44.46
+                                                                                			S136.19,22.6,111.67,22.6z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st3"
+                                                        d="M20.48,245.11c-0.13-1.7-2.76-41.82,26.83-68.75c23.04-20.97,58.38-27.6,105.05-19.66l-3.04,17.9
+                                                                                			c-40.78-6.93-70.94-1.85-89.65,15.06c-23.06,20.86-21.09,53.79-21.07,54.12L20.48,245.11z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4"
+                                                        d="M212.75,210.62c0-3.19-0.89-5.73-2.66-7.62c-1.77-1.89-4.78-3.63-9.03-5.23c-4.24-1.6-7.9-3.18-10.98-4.76
+                                                                                			c-3.08-1.58-5.72-3.39-7.92-5.43c-2.2-2.05-3.91-4.45-5.14-7.21c-1.23-2.77-1.84-6.06-1.84-9.87c0-6.59,2.1-11.98,6.31-16.19
+                                                                                			c4.21-4.2,9.79-6.66,16.76-7.36v-12.5h9.35v12.68c6.89,0.98,12.29,3.84,16.18,8.61c3.9,4.77,5.84,10.95,5.84,18.55h-16.88
+                                                                                			c0-4.68-0.96-8.17-2.89-10.49c-1.93-2.32-4.51-3.48-7.74-3.48c-3.19,0-5.67,0.9-7.42,2.72c-1.75,1.81-2.63,4.31-2.63,7.5
+                                                                                			c0,2.96,0.86,5.34,2.57,7.13c1.71,1.79,4.9,3.62,9.55,5.49c4.65,1.87,8.48,3.63,11.48,5.28c3,1.66,5.53,3.52,7.6,5.61
+                                                                                			c2.06,2.08,3.64,4.46,4.73,7.12c1.09,2.67,1.64,5.78,1.64,9.32c0,6.62-2.07,11.99-6.19,16.12c-4.13,4.13-9.81,6.56-17.06,7.3
+                                                                                			v11.63h-9.29v-11.57c-7.99-0.86-14.17-3.69-18.55-8.5c-4.38-4.81-6.57-11.2-6.57-19.19h16.88c0,4.63,1.1,8.19,3.3,10.66
+                                                                                			c2.2,2.48,5.36,3.71,9.49,3.71c3.43,0,6.13-0.9,8.12-2.72C211.76,216.14,212.75,213.7,212.75,210.62z" />
+                                                </g>
                                             </g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
                                             <g>
-                                                <path class="st3"
-                                                    d="M20.48,245.11c-0.13-1.7-2.76-41.82,26.83-68.75c23.04-20.97,58.38-27.6,105.05-19.66l-3.04,17.9
-                                                                    			c-40.78-6.93-70.94-1.85-89.65,15.06c-23.06,20.86-21.09,53.79-21.07,54.12L20.48,245.11z" />
+                                                <g>
+                                                    <path d="M111.67,129.68c-34.53,0-62.62-28.09-62.62-62.62S77.14,4.44,111.67,4.44s62.62,28.09,62.62,62.62
+                                                			S146.2,129.68,111.67,129.68z M111.67,22.6c-24.51,0-44.46,19.94-44.46,44.46s19.94,44.46,44.46,44.46s44.46-19.94,44.46-44.46
+                                                			S136.19,22.6,111.67,22.6z" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M20.48,245.11c-0.13-1.7-2.76-41.82,26.83-68.75c23.04-20.97,58.38-27.6,105.05-19.66l-3.04,17.9
+                                                			c-40.78-6.93-70.94-1.85-89.65,15.06c-23.06,20.86-21.09,53.79-21.07,54.12L20.48,245.11z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4"
+                                                        d="M212.75,210.62c0-3.19-0.89-5.73-2.66-7.62c-1.77-1.89-4.78-3.63-9.03-5.23c-4.24-1.6-7.9-3.18-10.98-4.76
+                                                			c-3.08-1.58-5.72-3.39-7.92-5.43c-2.2-2.05-3.91-4.45-5.14-7.21c-1.23-2.77-1.84-6.06-1.84-9.87c0-6.59,2.1-11.98,6.31-16.19
+                                                			c4.21-4.2,9.79-6.66,16.76-7.36v-12.5h9.35v12.68c6.89,0.98,12.29,3.84,16.18,8.61c3.9,4.77,5.84,10.95,5.84,18.55h-16.88
+                                                			c0-4.68-0.96-8.17-2.89-10.49c-1.93-2.32-4.51-3.48-7.74-3.48c-3.19,0-5.67,0.9-7.42,2.72c-1.75,1.81-2.63,4.31-2.63,7.5
+                                                			c0,2.96,0.86,5.34,2.57,7.13c1.71,1.79,4.9,3.62,9.55,5.49c4.65,1.87,8.48,3.63,11.48,5.28c3,1.66,5.53,3.52,7.6,5.61
+                                                			c2.06,2.08,3.64,4.46,4.73,7.12c1.09,2.67,1.64,5.78,1.64,9.32c0,6.62-2.07,11.99-6.19,16.12c-4.13,4.13-9.81,6.56-17.06,7.3
+                                                			v11.63h-9.29v-11.57c-7.99-0.86-14.17-3.69-18.55-8.5c-4.38-4.81-6.57-11.2-6.57-19.19h16.88c0,4.63,1.1,8.19,3.3,10.66
+                                                			c2.2,2.48,5.36,3.71,9.49,3.71c3.43,0,6.13-0.9,8.12-2.72C211.76,216.14,212.75,213.7,212.75,210.62z" />
+                                                </g>
                                             </g>
-                                            <g>
-                                                <path class="st4"
-                                                    d="M212.75,210.62c0-3.19-0.89-5.73-2.66-7.62c-1.77-1.89-4.78-3.63-9.03-5.23c-4.24-1.6-7.9-3.18-10.98-4.76
-                                                                    			c-3.08-1.58-5.72-3.39-7.92-5.43c-2.2-2.05-3.91-4.45-5.14-7.21c-1.23-2.77-1.84-6.06-1.84-9.87c0-6.59,2.1-11.98,6.31-16.19
-                                                                    			c4.21-4.2,9.79-6.66,16.76-7.36v-12.5h9.35v12.68c6.89,0.98,12.29,3.84,16.18,8.61c3.9,4.77,5.84,10.95,5.84,18.55h-16.88
-                                                                    			c0-4.68-0.96-8.17-2.89-10.49c-1.93-2.32-4.51-3.48-7.74-3.48c-3.19,0-5.67,0.9-7.42,2.72c-1.75,1.81-2.63,4.31-2.63,7.5
-                                                                    			c0,2.96,0.86,5.34,2.57,7.13c1.71,1.79,4.9,3.62,9.55,5.49c4.65,1.87,8.48,3.63,11.48,5.28c3,1.66,5.53,3.52,7.6,5.61
-                                                                    			c2.06,2.08,3.64,4.46,4.73,7.12c1.09,2.67,1.64,5.78,1.64,9.32c0,6.62-2.07,11.99-6.19,16.12c-4.13,4.13-9.81,6.56-17.06,7.3
-                                                                    			v11.63h-9.29v-11.57c-7.99-0.86-14.17-3.69-18.55-8.5c-4.38-4.81-6.57-11.2-6.57-19.19h16.88c0,4.63,1.1,8.19,3.3,10.66
-                                                                    			c2.2,2.48,5.36,3.71,9.49,3.71c3.43,0,6.13-0.9,8.12-2.72C211.76,216.14,212.75,213.7,212.75,210.62z" />
-                                            </g>
-                                        </g>
-                                    </svg>
+                                        </svg>
+                                    </div>
                                 </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path d="M111.67,129.68c-34.53,0-62.62-28.09-62.62-62.62S77.14,4.44,111.67,4.44s62.62,28.09,62.62,62.62
-                                    			S146.2,129.68,111.67,129.68z M111.67,22.6c-24.51,0-44.46,19.94-44.46,44.46s19.94,44.46,44.46,44.46s44.46-19.94,44.46-44.46
-                                    			S136.19,22.6,111.67,22.6z" />
-                                            </g>
-                                            <g>
-                                                <path d="M20.48,245.11c-0.13-1.7-2.76-41.82,26.83-68.75c23.04-20.97,58.38-27.6,105.05-19.66l-3.04,17.9
-                                    			c-40.78-6.93-70.94-1.85-89.65,15.06c-23.06,20.86-21.09,53.79-21.07,54.12L20.48,245.11z" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M212.75,210.62c0-3.19-0.89-5.73-2.66-7.62c-1.77-1.89-4.78-3.63-9.03-5.23c-4.24-1.6-7.9-3.18-10.98-4.76
-                                    			c-3.08-1.58-5.72-3.39-7.92-5.43c-2.2-2.05-3.91-4.45-5.14-7.21c-1.23-2.77-1.84-6.06-1.84-9.87c0-6.59,2.1-11.98,6.31-16.19
-                                    			c4.21-4.2,9.79-6.66,16.76-7.36v-12.5h9.35v12.68c6.89,0.98,12.29,3.84,16.18,8.61c3.9,4.77,5.84,10.95,5.84,18.55h-16.88
-                                    			c0-4.68-0.96-8.17-2.89-10.49c-1.93-2.32-4.51-3.48-7.74-3.48c-3.19,0-5.67,0.9-7.42,2.72c-1.75,1.81-2.63,4.31-2.63,7.5
-                                    			c0,2.96,0.86,5.34,2.57,7.13c1.71,1.79,4.9,3.62,9.55,5.49c4.65,1.87,8.48,3.63,11.48,5.28c3,1.66,5.53,3.52,7.6,5.61
-                                    			c2.06,2.08,3.64,4.46,4.73,7.12c1.09,2.67,1.64,5.78,1.64,9.32c0,6.62-2.07,11.99-6.19,16.12c-4.13,4.13-9.81,6.56-17.06,7.3
-                                    			v11.63h-9.29v-11.57c-7.99-0.86-14.17-3.69-18.55-8.5c-4.38-4.81-6.57-11.2-6.57-19.19h16.88c0,4.63,1.1,8.19,3.3,10.66
-                                    			c2.2,2.48,5.36,3.71,9.49,3.71c3.43,0,6.13-0.9,8.12-2.72C211.76,216.14,212.75,213.7,212.75,210.62z" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
+                                <p class="section_text">
+                                    Competitive salary + Holiday
+                                </p>
                             </div>
-                            <p class="section_text">
-                                Competitive salary + Holiday
-                            </p>
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st3"
+                                                        d="M198.38,244.6H51.61c-25.05,0-45.44-20.39-45.44-45.45v-88.28c0-25.06,20.39-45.45,45.44-45.45h146.77
+                                                            c25.06,0,45.45,20.39,45.45,45.45v88.28C243.83,224.22,223.45,244.6,198.38,244.6z M51.61,83.18c-15.27,0-27.69,12.42-27.69,27.7
+                                                            v88.28c0,15.27,12.42,27.7,27.69,27.7h146.77c15.27,0,27.7-12.42,27.7-27.7v-88.28c0-15.27-12.42-27.7-27.7-27.7H51.61z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4"
+                                                        d="M125,182.77c-26.98,0-47.32-7.1-60.44-21.09c-15.86-16.92-14.72-37.56-14.66-38.43l17.72,1.14l-8.86-0.57
+                                                            l8.86,0.51c-0.02,0.57-0.57,14.22,10.09,25.41c9.65,10.14,25.56,15.28,47.3,15.28c58.17,0,59.94-36.93,59.95-41.15l17.75-0.17
+                                                            c0.01,0.86,0.09,21.36-16.44,38.1C172.53,175.71,151.92,182.77,125,182.77z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M169.43,44.06l-17.72-1.04l8.86,0.52l-8.86-0.42c0-0.08,0.21-7.67-5.11-13.18
+                                                            c-4.35-4.51-11.46-6.79-21.16-6.79c-9.88,0-17.25,2.39-21.9,7.09c-5.56,5.63-5.72,13.12-5.72,13.2l-17.75,0.21
+                                                            c-0.02-1.51,0.13-15.05,10.85-25.89C99.02,9.56,110.64,5.4,125.44,5.4c14.88,0,26.38,4.21,34.21,12.5
+                                                            C170.01,28.89,169.52,42.54,169.43,44.06z" />
+                                                </g>
+                                                <g>
+                                                    <circle class="st4" cx="125" cy="123.82" r="12.51" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M198.38,244.6H51.61c-25.05,0-45.44-20.39-45.44-45.45v-88.28c0-25.06,20.39-45.45,45.44-45.45h146.77
+                                                            c25.06,0,45.45,20.39,45.45,45.45v88.28C243.83,224.22,223.45,244.6,198.38,244.6z M51.61,83.18c-15.27,0-27.69,12.42-27.69,27.7
+                                                            v88.28c0,15.27,12.42,27.7,27.69,27.7h146.77c15.27,0,27.7-12.42,27.7-27.7v-88.28c0-15.27-12.42-27.7-27.7-27.7H51.61z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4"
+                                                        d="M125,182.77c-26.98,0-47.32-7.1-60.44-21.09c-15.86-16.92-14.72-37.56-14.66-38.43l17.72,1.14l-8.86-0.57
+                                                            l8.86,0.51c-0.02,0.57-0.57,14.22,10.09,25.41c9.65,10.14,25.56,15.28,47.3,15.28c58.17,0,59.94-36.93,59.95-41.15l17.75-0.17
+                                                            c0.01,0.86,0.09,21.36-16.44,38.1C172.53,175.71,151.92,182.77,125,182.77z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M169.43,44.06l-17.72-1.04l8.86,0.52l-8.86-0.42c0-0.08,0.21-7.67-5.11-13.18
+                                                            c-4.35-4.51-11.46-6.79-21.16-6.79c-9.88,0-17.25,2.39-21.9,7.09c-5.56,5.63-5.72,13.12-5.72,13.2l-17.75,0.21
+                                                            c-0.02-1.51,0.13-15.05,10.85-25.89C99.02,9.56,110.64,5.4,125.44,5.4c14.88,0,26.38,4.21,34.21,12.5
+                                                            C170.01,28.89,169.52,42.54,169.43,44.06z" />
+                                                </g>
+                                                <g>
+                                                    <circle class="st4" cx="125" cy="123.82" r="12.51" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="section_text">
+                                    Flexible working hours & work-life balance
+                                </p>
+                            </div>
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st3" d="M167.47,149.34h-18.2v18.19h0.14v40.58c0,11.7-9.52,21.22-21.22,21.22h-6.25c-11.7,0-21.22-9.52-21.22-21.22
+                                                            v-40.58h0.01v-18.19H41.98c-11.7,0-21.22-9.52-21.22-21.22v-6.25c0-11.7,9.52-21.22,21.22-21.22h58.75V82.47h-0.01V41.89
+                                                            c0-11.7,9.52-21.22,21.22-21.22h6.25c11.7,0,21.22,9.52,21.22,21.22v40.58h-0.14v18.19h58.75c11.7,0,21.22,9.52,21.22,21.22v6.25
+                                                            c0,1-0.16,1.96-0.3,2.93h18.33c0.07-0.97,0.15-1.94,0.15-2.93v-6.25c0-21.73-17.68-39.41-39.41-39.41h-40.43V41.89
+                                                            c0-21.73-17.68-39.41-39.41-39.41h-6.25c-21.73,0-39.41,17.68-39.41,39.41v40.58H41.98c-21.73,0-39.41,17.68-39.41,39.41v6.25
+                                                            c0,21.73,17.68,39.41,39.41,39.41h40.55v40.58c0,21.73,17.68,39.41,39.41,39.41h6.25c21.73,0,39.41-17.68,39.41-39.41v-13.7h-0.12
+                                                            V149.34z" />
+                                                </g>
+                                                <path class="st4" d="M214.88,143.52c-12.68,10.7-29.06,5.54-29.22,5.48l-0.03,0.11v18.46c2.51,0.48,5.86,0.92,9.76,0.92
+                                                        c8.51,0,21.58-2.17,29.47-10.51L214.88,143.52z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path d="M167.47,149.34h-18.2v18.19h0.14v40.58c0,11.7-9.52,21.22-21.22,21.22h-6.25c-11.7,0-21.22-9.52-21.22-21.22v-40.58h0.01
+                                                            v-18.19H41.98c-11.7,0-21.22-9.52-21.22-21.22v-6.25c0-11.7,9.52-21.22,21.22-21.22h58.75V82.47h-0.01V41.89
+                                                            c0-11.7,9.52-21.22,21.22-21.22h6.25c11.7,0,21.22,9.52,21.22,21.22v40.58h-0.14v18.19h58.75c11.7,0,21.22,9.52,21.22,21.22v6.25
+                                                            c0,1-0.16,1.96-0.3,2.93h18.33c0.07-0.97,0.15-1.94,0.15-2.93v-6.25c0-21.73-17.68-39.41-39.41-39.41h-40.43V41.89
+                                                            c0-21.73-17.68-39.41-39.41-39.41h-6.25c-21.73,0-39.41,17.68-39.41,39.41v40.58H41.98c-21.73,0-39.41,17.68-39.41,39.41v6.25
+                                                            c0,21.73,17.68,39.41,39.41,39.41h40.55v40.58c0,21.73,17.68,39.41,39.41,39.41h6.25c21.73,0,39.41-17.68,39.41-39.41v-13.7h-0.12
+                                                            V149.34z" />
+                                                </g>
+                                                <path class="st4" d="M214.88,143.52c-12.68,10.7-29.06,5.54-29.22,5.48l-0.03,0.11v18.46c2.51,0.48,5.86,0.92,9.76,0.92
+                                                        c8.51,0,21.58-2.17,29.47-10.51L214.88,143.52z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="section_text">
+                                    Health Insurance for you & your dependents
+                                </p>
+                            </div>
                         </div>
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
+                        <!-- Row 2 -->
+                        <div class="d--flex d--justSpaceBtw space-top mt--85">
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
                                             <g>
                                                 <path class="st3"
-                                                    d="M198.38,244.6H51.61c-25.05,0-45.44-20.39-45.44-45.45v-88.28c0-25.06,20.39-45.45,45.44-45.45h146.77
-                                                c25.06,0,45.45,20.39,45.45,45.45v88.28C243.83,224.22,223.45,244.6,198.38,244.6z M51.61,83.18c-15.27,0-27.69,12.42-27.69,27.7
-                                                v88.28c0,15.27,12.42,27.7,27.69,27.7h146.77c15.27,0,27.7-12.42,27.7-27.7v-88.28c0-15.27-12.42-27.7-27.7-27.7H51.61z" />
+                                                    d="M199.77,13.11H50.23c-25.53,0-46.3,20.77-46.3,46.3v89.95c0,25.53,20.77,46.3,46.3,46.3h149.54
+                                                        c25.53,0,46.3-20.77,46.3-46.3V59.42C246.07,33.88,225.3,13.11,199.77,13.11z M227.99,149.36c0,15.56-12.66,28.22-28.22,28.22
+                                                        H50.23c-15.56,0-28.22-12.66-28.22-28.22V59.42c0-15.56,12.66-28.22,28.22-28.22h149.54c15.56,0,28.22,12.66,28.22,28.22V149.36z" />
+                                                <path class="st4" d="M164.63,104.39c0-3.79-0.55-7.44-1.55-10.91l14.45-9.1l-9.64-15.31l-13.72,8.65
+                                                        c-5.22-5.64-12.07-9.74-19.79-11.56V51.5h-18.09v14.65c-7.77,1.84-14.66,5.98-19.89,11.67l-13.89-8.75l-9.64,15.31l14.67,9.25
+                                                        c-0.98,3.42-1.51,7.03-1.51,10.77c0,5.11,0.99,9.98,2.77,14.46l-13.36,9.31L85.78,143l13.38-9.32c4.8,4.3,10.66,7.43,17.13,8.96
+                                                        v14.65h18.09v-14.65c6.99-1.65,13.26-5.18,18.26-10.01L167.53,143l10.34-14.84l-15.46-10.78
+                                                        C163.84,113.31,164.63,108.94,164.63,104.39z M125.33,125.61c-11.7,0-21.22-9.52-21.22-21.22s9.52-21.21,21.22-21.21
+                                                        c11.7,0,21.22,9.51,21.22,21.21S137.03,125.61,125.33,125.61z" />
+                                                <rect x="70.85" y="218.8" class="st3" width="108.3" height="18.09" />
                                             </g>
-                                            <g>
-                                                <path class="st4" d="M125,182.77c-26.98,0-47.32-7.1-60.44-21.09c-15.86-16.92-14.72-37.56-14.66-38.43l17.72,1.14l-8.86-0.57
-                                                l8.86,0.51c-0.02,0.57-0.57,14.22,10.09,25.41c9.65,10.14,25.56,15.28,47.3,15.28c58.17,0,59.94-36.93,59.95-41.15l17.75-0.17
-                                                c0.01,0.86,0.09,21.36-16.44,38.1C172.53,175.71,151.92,182.77,125,182.77z" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M169.43,44.06l-17.72-1.04l8.86,0.52l-8.86-0.42c0-0.08,0.21-7.67-5.11-13.18
-                                                c-4.35-4.51-11.46-6.79-21.16-6.79c-9.88,0-17.25,2.39-21.9,7.09c-5.56,5.63-5.72,13.12-5.72,13.2l-17.75,0.21
-                                                c-0.02-1.51,0.13-15.05,10.85-25.89C99.02,9.56,110.64,5.4,125.44,5.4c14.88,0,26.38,4.21,34.21,12.5
-                                                C170.01,28.89,169.52,42.54,169.43,44.06z" />
-                                            </g>
-                                            <g>
-                                                <circle class="st4" cx="125" cy="123.82" r="12.51" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
                                             <g>
                                                 <path
-                                                    d="M198.38,244.6H51.61c-25.05,0-45.44-20.39-45.44-45.45v-88.28c0-25.06,20.39-45.45,45.44-45.45h146.77
-                                                c25.06,0,45.45,20.39,45.45,45.45v88.28C243.83,224.22,223.45,244.6,198.38,244.6z M51.61,83.18c-15.27,0-27.69,12.42-27.69,27.7
-                                                v88.28c0,15.27,12.42,27.7,27.69,27.7h146.77c15.27,0,27.7-12.42,27.7-27.7v-88.28c0-15.27-12.42-27.7-27.7-27.7H51.61z" />
+                                                    d="M199.77,13.11H50.23c-25.53,0-46.3,20.77-46.3,46.3v89.95c0,25.53,20.77,46.3,46.3,46.3h149.54
+                                                        c25.53,0,46.3-20.77,46.3-46.3V59.42C246.07,33.88,225.3,13.11,199.77,13.11z M227.99,149.36c0,15.56-12.66,28.22-28.22,28.22
+                                                        H50.23c-15.56,0-28.22-12.66-28.22-28.22V59.42c0-15.56,12.66-28.22,28.22-28.22h149.54c15.56,0,28.22,12.66,28.22,28.22V149.36z" />
+                                                <path class="st4" d="M164.63,104.39c0-3.79-0.55-7.44-1.55-10.91l14.45-9.1l-9.64-15.31l-13.72,8.65
+                                                        c-5.22-5.64-12.07-9.74-19.79-11.56V51.5h-18.09v14.65c-7.77,1.84-14.66,5.98-19.89,11.67l-13.89-8.75l-9.64,15.31l14.67,9.25
+                                                        c-0.98,3.42-1.51,7.03-1.51,10.77c0,5.11,0.99,9.98,2.77,14.46l-13.36,9.31L85.78,143l13.38-9.32c4.8,4.3,10.66,7.43,17.13,8.96
+                                                        v14.65h18.09v-14.65c6.99-1.65,13.26-5.18,18.26-10.01L167.53,143l10.34-14.84l-15.46-10.78
+                                                        C163.84,113.31,164.63,108.94,164.63,104.39z M125.33,125.61c-11.7,0-21.22-9.52-21.22-21.22s9.52-21.21,21.22-21.21
+                                                        c11.7,0,21.22,9.51,21.22,21.21S137.03,125.61,125.33,125.61z" />
+                                                <rect x="70.85" y="218.8" width="108.3" height="18.09" />
                                             </g>
-                                            <g>
-                                                <path class="st4" d="M125,182.77c-26.98,0-47.32-7.1-60.44-21.09c-15.86-16.92-14.72-37.56-14.66-38.43l17.72,1.14l-8.86-0.57
-                                                l8.86,0.51c-0.02,0.57-0.57,14.22,10.09,25.41c9.65,10.14,25.56,15.28,47.3,15.28c58.17,0,59.94-36.93,59.95-41.15l17.75-0.17
-                                                c0.01,0.86,0.09,21.36-16.44,38.1C172.53,175.71,151.92,182.77,125,182.77z" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M169.43,44.06l-17.72-1.04l8.86,0.52l-8.86-0.42c0-0.08,0.21-7.67-5.11-13.18
-                                                c-4.35-4.51-11.46-6.79-21.16-6.79c-9.88,0-17.25,2.39-21.9,7.09c-5.56,5.63-5.72,13.12-5.72,13.2l-17.75,0.21
-                                                c-0.02-1.51,0.13-15.05,10.85-25.89C99.02,9.56,110.64,5.4,125.44,5.4c14.88,0,26.38,4.21,34.21,12.5
-                                                C170.01,28.89,169.52,42.54,169.43,44.06z" />
-                                            </g>
-                                            <g>
-                                                <circle class="st4" cx="125" cy="123.82" r="12.51" />
-                                            </g>
-                                        </g>
-                                    </svg>
+                                        </svg>
+                                    </div>
                                 </div>
-                            </div>
-                            <p class="section_text">
-                                Flexible working hours & work-life balance
-                            </p>
-                        </div>
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path class="st3" d="M167.47,149.34h-18.2v18.19h0.14v40.58c0,11.7-9.52,21.22-21.22,21.22h-6.25c-11.7,0-21.22-9.52-21.22-21.22
-                                                v-40.58h0.01v-18.19H41.98c-11.7,0-21.22-9.52-21.22-21.22v-6.25c0-11.7,9.52-21.22,21.22-21.22h58.75V82.47h-0.01V41.89
-                                                c0-11.7,9.52-21.22,21.22-21.22h6.25c11.7,0,21.22,9.52,21.22,21.22v40.58h-0.14v18.19h58.75c11.7,0,21.22,9.52,21.22,21.22v6.25
-                                                c0,1-0.16,1.96-0.3,2.93h18.33c0.07-0.97,0.15-1.94,0.15-2.93v-6.25c0-21.73-17.68-39.41-39.41-39.41h-40.43V41.89
-                                                c0-21.73-17.68-39.41-39.41-39.41h-6.25c-21.73,0-39.41,17.68-39.41,39.41v40.58H41.98c-21.73,0-39.41,17.68-39.41,39.41v6.25
-                                                c0,21.73,17.68,39.41,39.41,39.41h40.55v40.58c0,21.73,17.68,39.41,39.41,39.41h6.25c21.73,0,39.41-17.68,39.41-39.41v-13.7h-0.12
-                                                V149.34z" />
-                                            </g>
-                                            <path class="st4" d="M214.88,143.52c-12.68,10.7-29.06,5.54-29.22,5.48l-0.03,0.11v18.46c2.51,0.48,5.86,0.92,9.76,0.92
-                                            c8.51,0,21.58-2.17,29.47-10.51L214.88,143.52z" />
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path d="M167.47,149.34h-18.2v18.19h0.14v40.58c0,11.7-9.52,21.22-21.22,21.22h-6.25c-11.7,0-21.22-9.52-21.22-21.22v-40.58h0.01
-                                                v-18.19H41.98c-11.7,0-21.22-9.52-21.22-21.22v-6.25c0-11.7,9.52-21.22,21.22-21.22h58.75V82.47h-0.01V41.89
-                                                c0-11.7,9.52-21.22,21.22-21.22h6.25c11.7,0,21.22,9.52,21.22,21.22v40.58h-0.14v18.19h58.75c11.7,0,21.22,9.52,21.22,21.22v6.25
-                                                c0,1-0.16,1.96-0.3,2.93h18.33c0.07-0.97,0.15-1.94,0.15-2.93v-6.25c0-21.73-17.68-39.41-39.41-39.41h-40.43V41.89
-                                                c0-21.73-17.68-39.41-39.41-39.41h-6.25c-21.73,0-39.41,17.68-39.41,39.41v40.58H41.98c-21.73,0-39.41,17.68-39.41,39.41v6.25
-                                                c0,21.73,17.68,39.41,39.41,39.41h40.55v40.58c0,21.73,17.68,39.41,39.41,39.41h6.25c21.73,0,39.41-17.68,39.41-39.41v-13.7h-0.12
-                                                V149.34z" />
-                                            </g>
-                                            <path class="st4" d="M214.88,143.52c-12.68,10.7-29.06,5.54-29.22,5.48l-0.03,0.11v18.46c2.51,0.48,5.86,0.92,9.76,0.92
-                                            c8.51,0,21.58-2.17,29.47-10.51L214.88,143.52z" />
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <p class="section_text">
-                                Health Insurance for you & your dependents
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Row 2 -->
-                    <div class="d--flex d--justSpaceBtw space-top mt--85">
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <path class="st3"
-                                                d="M199.77,13.11H50.23c-25.53,0-46.3,20.77-46.3,46.3v89.95c0,25.53,20.77,46.3,46.3,46.3h149.54
-                                            c25.53,0,46.3-20.77,46.3-46.3V59.42C246.07,33.88,225.3,13.11,199.77,13.11z M227.99,149.36c0,15.56-12.66,28.22-28.22,28.22
-                                            H50.23c-15.56,0-28.22-12.66-28.22-28.22V59.42c0-15.56,12.66-28.22,28.22-28.22h149.54c15.56,0,28.22,12.66,28.22,28.22V149.36z" />
-                                            <path class="st4" d="M164.63,104.39c0-3.79-0.55-7.44-1.55-10.91l14.45-9.1l-9.64-15.31l-13.72,8.65
-                                            c-5.22-5.64-12.07-9.74-19.79-11.56V51.5h-18.09v14.65c-7.77,1.84-14.66,5.98-19.89,11.67l-13.89-8.75l-9.64,15.31l14.67,9.25
-                                            c-0.98,3.42-1.51,7.03-1.51,10.77c0,5.11,0.99,9.98,2.77,14.46l-13.36,9.31L85.78,143l13.38-9.32c4.8,4.3,10.66,7.43,17.13,8.96
-                                            v14.65h18.09v-14.65c6.99-1.65,13.26-5.18,18.26-10.01L167.53,143l10.34-14.84l-15.46-10.78
-                                            C163.84,113.31,164.63,108.94,164.63,104.39z M125.33,125.61c-11.7,0-21.22-9.52-21.22-21.22s9.52-21.21,21.22-21.21
-                                            c11.7,0,21.22,9.51,21.22,21.21S137.03,125.61,125.33,125.61z" />
-                                            <rect x="70.85" y="218.8" class="st3" width="108.3" height="18.09" />
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <path
-                                                d="M199.77,13.11H50.23c-25.53,0-46.3,20.77-46.3,46.3v89.95c0,25.53,20.77,46.3,46.3,46.3h149.54
-                                            c25.53,0,46.3-20.77,46.3-46.3V59.42C246.07,33.88,225.3,13.11,199.77,13.11z M227.99,149.36c0,15.56-12.66,28.22-28.22,28.22
-                                            H50.23c-15.56,0-28.22-12.66-28.22-28.22V59.42c0-15.56,12.66-28.22,28.22-28.22h149.54c15.56,0,28.22,12.66,28.22,28.22V149.36z" />
-                                            <path class="st4" d="M164.63,104.39c0-3.79-0.55-7.44-1.55-10.91l14.45-9.1l-9.64-15.31l-13.72,8.65
-                                            c-5.22-5.64-12.07-9.74-19.79-11.56V51.5h-18.09v14.65c-7.77,1.84-14.66,5.98-19.89,11.67l-13.89-8.75l-9.64,15.31l14.67,9.25
-                                            c-0.98,3.42-1.51,7.03-1.51,10.77c0,5.11,0.99,9.98,2.77,14.46l-13.36,9.31L85.78,143l13.38-9.32c4.8,4.3,10.66,7.43,17.13,8.96
-                                            v14.65h18.09v-14.65c6.99-1.65,13.26-5.18,18.26-10.01L167.53,143l10.34-14.84l-15.46-10.78
-                                            C163.84,113.31,164.63,108.94,164.63,104.39z M125.33,125.61c-11.7,0-21.22-9.52-21.22-21.22s9.52-21.21,21.22-21.21
-                                            c11.7,0,21.22,9.51,21.22,21.21S137.03,125.61,125.33,125.61z" />
-                                            <rect x="70.85" y="218.8" width="108.3" height="18.09" />
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <p class="section_text">
-                                Choose your own hardware and workstation
-                            </p>
-                        </div>
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path class="st3" d="M139.72,247.78c-6.24,0-12.11-2.43-16.52-6.84L15,132.74c-11.34-11.33-11.34-29.78-0.01-41.12
-                                    			c24.9-24.89,60.51-34.12,94.1-24.73c22.55-20.68,96-83.67,128.57-59.05c5.64,4.27,9.03,10.57,9.82,18.24
-                                    			c3.52,34.15-48.11,97.88-63.18,115.66c9.66,33.78,0.23,70.89-24.76,95.88l-3.31,3.31C151.83,245.35,145.96,247.78,139.72,247.78z
-                                    			 M83,81.74c-20.29,0-40.01,7.96-54.96,22.91c-4.14,4.15-4.14,10.9,0,15.04l108.2,108.2c1.86,1.86,5.1,1.86,6.95,0l3.31-3.31
-                                    			c21.3-21.3,28.66-53.46,18.75-81.92c-1.09-3.13-0.41-6.6,1.77-9.1c25.24-28.94,64.43-83.2,62.12-105.59
-                                    			c-0.34-3.31-1.57-4.64-2.61-5.42c-9.76-7.38-51.05,7.05-108.75,61.44c-2.49,2.35-6.08,3.12-9.31,2.02
-                                    			C100.09,83.14,91.5,81.74,83,81.74z" />
-                                            </g>
-                                            <g>
-                                                <circle class="st4" cx="172.34" cy="79.99" r="13.4" />
-                                            </g>
-                                            <g>
-                                                <circle class="st3" cx="142.43" cy="109.89" r="13.4" />
-                                            </g>
-                                            <g>
-                                                <rect x="58.1" y="104.41" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.9772 87.295)" class="st3"
-                                                    width="36.56" height="18.44" />
-                                            </g>
-                                            <g>
-                                                <rect x="119.29" y="165.59" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.3206 148.4794)" class="st3"
-                                                    width="36.56" height="18.44" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M30.18,246.38c-7.3,0-13.95-2.7-19.3-7.85c-5.7-5.49-8.65-12.53-8.53-20.35
-                                    			c0.31-20.75,22.32-41.29,24.82-43.57l12.4,13.66c-7.19,6.55-18.64,20.55-18.78,30.2c-0.04,2.72,0.85,4.81,2.88,6.77
-                                    			c2.06,1.98,4.31,2.8,7.01,2.68c9.78-0.43,23.57-12.22,29.96-19.56l13.92,12.09c-2.21,2.55-22.22,24.96-43.04,25.9
-                                    			C31.08,246.37,30.63,246.38,30.18,246.38z" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path d="M139.72,247.78c-6.24,0-12.11-2.43-16.52-6.84L15,132.74c-11.34-11.33-11.34-29.78-0.01-41.12
-                                                c24.9-24.89,60.51-34.12,94.1-24.73c22.55-20.68,96-83.67,128.57-59.05c5.64,4.27,9.03,10.57,9.82,18.24
-                                                c3.52,34.15-48.11,97.88-63.18,115.66c9.66,33.78,0.23,70.89-24.76,95.88l-3.31,3.31C151.83,245.35,145.96,247.78,139.72,247.78z
-                                                M83,81.74c-20.29,0-40.01,7.96-54.96,22.91c-4.14,4.15-4.14,10.9,0,15.04l108.2,108.2c1.86,1.86,5.1,1.86,6.95,0l3.31-3.31
-                                                c21.3-21.3,28.66-53.46,18.75-81.92c-1.09-3.13-0.41-6.6,1.77-9.1c25.24-28.94,64.43-83.2,62.12-105.59
-                                                c-0.34-3.31-1.57-4.64-2.61-5.42c-9.76-7.38-51.05,7.05-108.75,61.44c-2.49,2.35-6.08,3.12-9.31,2.02
-                                                C100.09,83.14,91.5,81.74,83,81.74z" />
-                                            </g>
-                                            <g>
-                                                <circle class="st4" cx="172.34" cy="79.99" r="13.4" />
-                                            </g>
-                                            <g>
-                                                <circle cx="142.43" cy="109.89" r="13.4" />
-                                            </g>
-                                            <g>
-                                                <rect x="58.1" y="104.41" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.9772 87.295)" width="36.56"
-                                                    height="18.44" />
-                                            </g>
-                                            <g>
-                                                <rect x="119.29" y="165.59" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.3206 148.4794)" width="36.56"
-                                                    height="18.44" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M30.18,246.38c-7.3,0-13.95-2.7-19.3-7.85c-5.7-5.49-8.65-12.53-8.53-20.35
-                                                c0.31-20.75,22.32-41.29,24.82-43.57l12.4,13.66c-7.19,6.55-18.64,20.55-18.78,30.2c-0.04,2.72,0.85,4.81,2.88,6.77
-                                                c2.06,1.98,4.31,2.8,7.01,2.68c9.78-0.43,23.57-12.22,29.96-19.56l13.92,12.09c-2.21,2.55-22.22,24.96-43.04,25.9
-                                                C31.08,246.37,30.63,246.38,30.18,246.38z" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <p class="section_text">
-                              Build for the next billion internet users
-                            </p>
-                        </div>
-                        <div class="section_card">
-                            <div class="card_icon">
-                                <div class="default_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path class="st3" d="M220.39,172.9h-33.33v-18.41h33.33c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-34.48v-18.41h34.48
-                                    			c14.58,0,26.44,11.86,26.44,26.44C246.83,161.04,234.97,172.9,220.39,172.9z" />
-                                            </g>
-                                            <g>
-                                                <path class="st3" d="M220.39,207.37h-31.03v-18.41h31.03c4.43,0,8.04-3.6,8.04-8.03s-3.61-8.04-8.04-8.04h-33.33v-18.41h33.33
-                                    			c14.58,0,26.44,11.86,26.44,26.44S234.97,207.37,220.39,207.37z" />
-                                            </g>
-                                            <g>
-                                                <path class="st3" d="M209.76,247.7H108.37V229.3h101.39c4.28,0,8.04-5.12,8.04-10.96c0-5.84-3.76-10.97-8.04-10.97h-21.37v-18.41
-                                    			h21.37c14.58,0,26.44,13.18,26.44,29.37C236.2,234.53,224.34,247.7,209.76,247.7z" />
-                                            </g>
-                                            <g>
-                                                <path class="st3" d="M22.04,170.07H3.63v-47.19c0-11.89,8.54-29.57,32.05-29.57h33.56c9.61-6.35,49.16-34.12,55.79-65.7
-                                    			c0.32-1.59,3.57-16.13,14.09-22.42c5.09-3.04,10.95-3.7,16.93-1.89c10.04,3.01,18.02,9.36,22.48,17.88
-                                    			c3.63,6.94,6.76,18.92,1.01,36.52c-3.66,11.18-8.65,20.64-13.21,27.85h54.05c14.58,0,26.44,11.86,26.44,26.44
-                                    			s-11.86,26.44-26.44,26.44h-34.48v-18.41h34.48c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-72.44
-                                    			c-3.69,0-7.02-2.2-8.47-5.59c-1.44-3.39-0.73-7.32,1.82-9.98c0.12-0.13,13.61-14.52,20.76-36.41c2.97-9.1,3.03-16.8,0.17-22.27
-                                    			c-2.74-5.24-7.74-7.67-11.46-8.78c-1.4-0.42-1.88-0.13-2.19,0.06c-2.47,1.46-4.79,6.97-5.53,10.4
-                                    			c-9.15,43.63-63.97,77.57-66.3,78.99c-1.44,0.88-3.1,1.35-4.8,1.35H35.69c-11.59,0-13.52,7.07-13.64,11.29V170.07z" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M48.54,247.7c-2.15,0-4.3-0.75-6.03-2.25l-39.34-34.1l12.06-13.91l33.11,28.7l74.53-69.19l12.52,13.49
-                                    			l-80.59,74.8C53.04,246.88,50.79,247.7,48.54,247.7z" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="hover_icon icon--style">
-                                    <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 250"
-                                        style="enable-background:new 0 0 250 250;" xml:space="preserve">
-                                        <style type="text/css">
-                                            .st0 {
-                                                fill: #3A56A5;
-                                            }
-                                    
-                                            .st1 {
-                                                fill: #ED1C24;
-                                            }
-                                    
-                                            .st2 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st3 {
-                                                fill: #FFFFFF;
-                                            }
-                                    
-                                            .st4 {
-                                                fill: #EB5124;
-                                            }
-                                    
-                                            .st5 {
-                                                fill: none;
-                                                stroke: #000000;
-                                                stroke-width: 3;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st6 {
-                                                fill: #231F20;
-                                            }
-                                    
-                                            .st7 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-miterlimit: 10;
-                                            }
-                                    
-                                            .st8 {
-                                                fill: none;
-                                                stroke: #231F20;
-                                                stroke-width: 3;
-                                                stroke-linecap: round;
-                                                stroke-linejoin: round;
-                                                stroke-miterlimit: 10;
-                                            }
-                                        </style>
-                                        <g>
-                                            <g>
-                                                <path d="M220.39,172.9h-33.33v-18.41h33.33c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-34.48v-18.41h34.48
-                                                c14.58,0,26.44,11.86,26.44,26.44C246.83,161.04,234.97,172.9,220.39,172.9z" />
-                                            </g>
-                                            <g>
-                                                <path d="M220.39,207.37h-31.03v-18.41h31.03c4.43,0,8.04-3.6,8.04-8.03s-3.61-8.04-8.04-8.04h-33.33v-18.41h33.33
-                                                c14.58,0,26.44,11.86,26.44,26.44S234.97,207.37,220.39,207.37z" />
-                                            </g>
-                                            <g>
-                                                <path d="M209.76,247.7H108.37V229.3h101.39c4.28,0,8.04-5.12,8.04-10.96c0-5.84-3.76-10.97-8.04-10.97h-21.37v-18.41h21.37
-                                                c14.58,0,26.44,13.18,26.44,29.37C236.2,234.53,224.34,247.7,209.76,247.7z" />
-                                            </g>
-                                            <g>
-                                                <path d="M22.04,170.07H3.63v-47.19c0-11.89,8.54-29.57,32.05-29.57h33.56c9.61-6.35,49.16-34.12,55.79-65.7
-                                                c0.32-1.59,3.57-16.13,14.09-22.42c5.09-3.04,10.95-3.7,16.93-1.89c10.04,3.01,18.02,9.36,22.48,17.88
-                                                c3.63,6.94,6.76,18.92,1.01,36.52c-3.66,11.18-8.65,20.64-13.21,27.85h54.05c14.58,0,26.44,11.86,26.44,26.44
-                                                s-11.86,26.44-26.44,26.44h-34.48v-18.41h34.48c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-72.44
-                                                c-3.69,0-7.02-2.2-8.47-5.59c-1.44-3.39-0.73-7.32,1.82-9.98c0.12-0.13,13.61-14.52,20.76-36.41c2.97-9.1,3.03-16.8,0.17-22.27
-                                                c-2.74-5.24-7.74-7.67-11.46-8.78c-1.4-0.42-1.88-0.13-2.19,0.06c-2.47,1.46-4.79,6.97-5.53,10.4
-                                                c-9.15,43.63-63.97,77.57-66.3,78.99c-1.44,0.88-3.1,1.35-4.8,1.35H35.69c-11.59,0-13.52,7.07-13.64,11.29V170.07z" />
-                                            </g>
-                                            <g>
-                                                <path class="st4" d="M48.54,247.7c-2.15,0-4.3-0.75-6.03-2.25l-39.34-34.1l12.06-13.91l33.11,28.7l74.53-69.19l12.52,13.49
-                                                l-80.59,74.8C53.04,246.88,50.79,247.7,48.54,247.7z" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </div>
-                            </div>
-                            <p class="section_text">
-                                De-stress and unwind with cool office parties
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Section 2 -->
-
-            <!-- Section 3 => why you love it -->
-            <section class="section_3 section">
-                <h3>Why you’ll love it at Powerplay</h3>
-                <div class="section_wrapper">
-                    <div class="d--flex d--justSpaceBtw">
-                        <div class="section_text-card">
-                            <div class="section_text-head d--flex d--alignCenter">
-                                <div class="head-icon">
-                                    <div class="icon--check"></div>
-                                </div>
-                                <p class="head-text">
-                                    Personal growth
+                                <p class="section_text">
+                                    Choose your own hardware and workstation
                                 </p>
                             </div>
-                            <p class="section_text-para">
-                                You’ll get several opportunities to explore your ideas and bring them to life at Powerplay
-                            </p>
-                        </div>
-                        <div class="section_text-card">
-                            <div class="section_text-head d--flex d--alignCenter">
-                                <div class="head-icon">
-                                    <div class="icon--check"></div>
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st3" d="M139.72,247.78c-6.24,0-12.11-2.43-16.52-6.84L15,132.74c-11.34-11.33-11.34-29.78-0.01-41.12
+                                                			c24.9-24.89,60.51-34.12,94.1-24.73c22.55-20.68,96-83.67,128.57-59.05c5.64,4.27,9.03,10.57,9.82,18.24
+                                                			c3.52,34.15-48.11,97.88-63.18,115.66c9.66,33.78,0.23,70.89-24.76,95.88l-3.31,3.31C151.83,245.35,145.96,247.78,139.72,247.78z
+                                                			 M83,81.74c-20.29,0-40.01,7.96-54.96,22.91c-4.14,4.15-4.14,10.9,0,15.04l108.2,108.2c1.86,1.86,5.1,1.86,6.95,0l3.31-3.31
+                                                			c21.3-21.3,28.66-53.46,18.75-81.92c-1.09-3.13-0.41-6.6,1.77-9.1c25.24-28.94,64.43-83.2,62.12-105.59
+                                                			c-0.34-3.31-1.57-4.64-2.61-5.42c-9.76-7.38-51.05,7.05-108.75,61.44c-2.49,2.35-6.08,3.12-9.31,2.02
+                                                			C100.09,83.14,91.5,81.74,83,81.74z" />
+                                                </g>
+                                                <g>
+                                                    <circle class="st4" cx="172.34" cy="79.99" r="13.4" />
+                                                </g>
+                                                <g>
+                                                    <circle class="st3" cx="142.43" cy="109.89" r="13.4" />
+                                                </g>
+                                                <g>
+                                                    <rect x="58.1" y="104.41"
+                                                        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.9772 87.295)" class="st3"
+                                                        width="36.56" height="18.44" />
+                                                </g>
+                                                <g>
+                                                    <rect x="119.29" y="165.59"
+                                                        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.3206 148.4794)"
+                                                        class="st3" width="36.56" height="18.44" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M30.18,246.38c-7.3,0-13.95-2.7-19.3-7.85c-5.7-5.49-8.65-12.53-8.53-20.35
+                                                			c0.31-20.75,22.32-41.29,24.82-43.57l12.4,13.66c-7.19,6.55-18.64,20.55-18.78,30.2c-0.04,2.72,0.85,4.81,2.88,6.77
+                                                			c2.06,1.98,4.31,2.8,7.01,2.68c9.78-0.43,23.57-12.22,29.96-19.56l13.92,12.09c-2.21,2.55-22.22,24.96-43.04,25.9
+                                                			C31.08,246.37,30.63,246.38,30.18,246.38z" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path d="M139.72,247.78c-6.24,0-12.11-2.43-16.52-6.84L15,132.74c-11.34-11.33-11.34-29.78-0.01-41.12
+                                                            c24.9-24.89,60.51-34.12,94.1-24.73c22.55-20.68,96-83.67,128.57-59.05c5.64,4.27,9.03,10.57,9.82,18.24
+                                                            c3.52,34.15-48.11,97.88-63.18,115.66c9.66,33.78,0.23,70.89-24.76,95.88l-3.31,3.31C151.83,245.35,145.96,247.78,139.72,247.78z
+                                                            M83,81.74c-20.29,0-40.01,7.96-54.96,22.91c-4.14,4.15-4.14,10.9,0,15.04l108.2,108.2c1.86,1.86,5.1,1.86,6.95,0l3.31-3.31
+                                                            c21.3-21.3,28.66-53.46,18.75-81.92c-1.09-3.13-0.41-6.6,1.77-9.1c25.24-28.94,64.43-83.2,62.12-105.59
+                                                            c-0.34-3.31-1.57-4.64-2.61-5.42c-9.76-7.38-51.05,7.05-108.75,61.44c-2.49,2.35-6.08,3.12-9.31,2.02
+                                                            C100.09,83.14,91.5,81.74,83,81.74z" />
+                                                </g>
+                                                <g>
+                                                    <circle class="st4" cx="172.34" cy="79.99" r="13.4" />
+                                                </g>
+                                                <g>
+                                                    <circle cx="142.43" cy="109.89" r="13.4" />
+                                                </g>
+                                                <g>
+                                                    <rect x="58.1" y="104.41"
+                                                        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -57.9772 87.295)"
+                                                        width="36.56" height="18.44" />
+                                                </g>
+                                                <g>
+                                                    <rect x="119.29" y="165.59"
+                                                        transform="matrix(0.7071 -0.7071 0.7071 0.7071 -83.3206 148.4794)"
+                                                        width="36.56" height="18.44" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M30.18,246.38c-7.3,0-13.95-2.7-19.3-7.85c-5.7-5.49-8.65-12.53-8.53-20.35
+                                                            c0.31-20.75,22.32-41.29,24.82-43.57l12.4,13.66c-7.19,6.55-18.64,20.55-18.78,30.2c-0.04,2.72,0.85,4.81,2.88,6.77
+                                                            c2.06,1.98,4.31,2.8,7.01,2.68c9.78-0.43,23.57-12.22,29.96-19.56l13.92,12.09c-2.21,2.55-22.22,24.96-43.04,25.9
+                                                            C31.08,246.37,30.63,246.38,30.18,246.38z" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
                                 </div>
-                                <p class="head-text">
-                                    Work with the best
+                                <p class="section_text">
+                                    Build for the next billion internet users
                                 </p>
                             </div>
-                            <p class="section_text-para">
-                                At Powerplay, the bar is high. You’ll be constantly challenged and motivated to work with some of the best people in the
-                            industry.
-                            </p>
-                        </div>
-                        <div class="section_text-card">
-                            <div class="section_text-head d--flex d--alignCenter">
-                                <div class="head-icon">
-                                    <div class="icon--check"></div>
+                            <div class="section_card">
+                                <div class="card_icon">
+                                    <div class="default_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path class="st3" d="M220.39,172.9h-33.33v-18.41h33.33c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-34.48v-18.41h34.48
+                                                			c14.58,0,26.44,11.86,26.44,26.44C246.83,161.04,234.97,172.9,220.39,172.9z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st3" d="M220.39,207.37h-31.03v-18.41h31.03c4.43,0,8.04-3.6,8.04-8.03s-3.61-8.04-8.04-8.04h-33.33v-18.41h33.33
+                                                			c14.58,0,26.44,11.86,26.44,26.44S234.97,207.37,220.39,207.37z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st3"
+                                                        d="M209.76,247.7H108.37V229.3h101.39c4.28,0,8.04-5.12,8.04-10.96c0-5.84-3.76-10.97-8.04-10.97h-21.37v-18.41
+                                                			h21.37c14.58,0,26.44,13.18,26.44,29.37C236.2,234.53,224.34,247.7,209.76,247.7z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st3"
+                                                        d="M22.04,170.07H3.63v-47.19c0-11.89,8.54-29.57,32.05-29.57h33.56c9.61-6.35,49.16-34.12,55.79-65.7
+                                                			c0.32-1.59,3.57-16.13,14.09-22.42c5.09-3.04,10.95-3.7,16.93-1.89c10.04,3.01,18.02,9.36,22.48,17.88
+                                                			c3.63,6.94,6.76,18.92,1.01,36.52c-3.66,11.18-8.65,20.64-13.21,27.85h54.05c14.58,0,26.44,11.86,26.44,26.44
+                                                			s-11.86,26.44-26.44,26.44h-34.48v-18.41h34.48c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-72.44
+                                                			c-3.69,0-7.02-2.2-8.47-5.59c-1.44-3.39-0.73-7.32,1.82-9.98c0.12-0.13,13.61-14.52,20.76-36.41c2.97-9.1,3.03-16.8,0.17-22.27
+                                                			c-2.74-5.24-7.74-7.67-11.46-8.78c-1.4-0.42-1.88-0.13-2.19,0.06c-2.47,1.46-4.79,6.97-5.53,10.4
+                                                			c-9.15,43.63-63.97,77.57-66.3,78.99c-1.44,0.88-3.1,1.35-4.8,1.35H35.69c-11.59,0-13.52,7.07-13.64,11.29V170.07z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M48.54,247.7c-2.15,0-4.3-0.75-6.03-2.25l-39.34-34.1l12.06-13.91l33.11,28.7l74.53-69.19l12.52,13.49
+                                                			l-80.59,74.8C53.04,246.88,50.79,247.7,48.54,247.7z" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="hover_icon icon--style">
+                                        <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                            y="0px" viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;"
+                                            xml:space="preserve">
+                                            <style type="text/css">
+                                                .st0 {
+                                                    fill: #3A56A5;
+                                                }
+            
+                                                .st1 {
+                                                    fill: #ED1C24;
+                                                }
+            
+                                                .st2 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st3 {
+                                                    fill: #FFFFFF;
+                                                }
+            
+                                                .st4 {
+                                                    fill: #EB5124;
+                                                }
+            
+                                                .st5 {
+                                                    fill: none;
+                                                    stroke: #000000;
+                                                    stroke-width: 3;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st6 {
+                                                    fill: #231F20;
+                                                }
+            
+                                                .st7 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-miterlimit: 10;
+                                                }
+            
+                                                .st8 {
+                                                    fill: none;
+                                                    stroke: #231F20;
+                                                    stroke-width: 3;
+                                                    stroke-linecap: round;
+                                                    stroke-linejoin: round;
+                                                    stroke-miterlimit: 10;
+                                                }
+                                            </style>
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M220.39,172.9h-33.33v-18.41h33.33c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-34.48v-18.41h34.48
+                                                            c14.58,0,26.44,11.86,26.44,26.44C246.83,161.04,234.97,172.9,220.39,172.9z" />
+                                                </g>
+                                                <g>
+                                                    <path d="M220.39,207.37h-31.03v-18.41h31.03c4.43,0,8.04-3.6,8.04-8.03s-3.61-8.04-8.04-8.04h-33.33v-18.41h33.33
+                                                            c14.58,0,26.44,11.86,26.44,26.44S234.97,207.37,220.39,207.37z" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M209.76,247.7H108.37V229.3h101.39c4.28,0,8.04-5.12,8.04-10.96c0-5.84-3.76-10.97-8.04-10.97h-21.37v-18.41h21.37
+                                                            c14.58,0,26.44,13.18,26.44,29.37C236.2,234.53,224.34,247.7,209.76,247.7z" />
+                                                </g>
+                                                <g>
+                                                    <path
+                                                        d="M22.04,170.07H3.63v-47.19c0-11.89,8.54-29.57,32.05-29.57h33.56c9.61-6.35,49.16-34.12,55.79-65.7
+                                                            c0.32-1.59,3.57-16.13,14.09-22.42c5.09-3.04,10.95-3.7,16.93-1.89c10.04,3.01,18.02,9.36,22.48,17.88
+                                                            c3.63,6.94,6.76,18.92,1.01,36.52c-3.66,11.18-8.65,20.64-13.21,27.85h54.05c14.58,0,26.44,11.86,26.44,26.44
+                                                            s-11.86,26.44-26.44,26.44h-34.48v-18.41h34.48c4.43,0,8.04-3.61,8.04-8.04s-3.61-8.04-8.04-8.04h-72.44
+                                                            c-3.69,0-7.02-2.2-8.47-5.59c-1.44-3.39-0.73-7.32,1.82-9.98c0.12-0.13,13.61-14.52,20.76-36.41c2.97-9.1,3.03-16.8,0.17-22.27
+                                                            c-2.74-5.24-7.74-7.67-11.46-8.78c-1.4-0.42-1.88-0.13-2.19,0.06c-2.47,1.46-4.79,6.97-5.53,10.4
+                                                            c-9.15,43.63-63.97,77.57-66.3,78.99c-1.44,0.88-3.1,1.35-4.8,1.35H35.69c-11.59,0-13.52,7.07-13.64,11.29V170.07z" />
+                                                </g>
+                                                <g>
+                                                    <path class="st4" d="M48.54,247.7c-2.15,0-4.3-0.75-6.03-2.25l-39.34-34.1l12.06-13.91l33.11,28.7l74.53-69.19l12.52,13.49
+                                                            l-80.59,74.8C53.04,246.88,50.79,247.7,48.54,247.7z" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
                                 </div>
-                                <p class="head-text">
-                                    Make a real impact
+                                <p class="section_text">
+                                    De-stress and unwind with cool office parties
                                 </p>
                             </div>
-                            <p class="section_text-para">
-                                We’re backed by global investors who help us digitise the construction process to save time, effort, and money.
-                            </p>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Section 3 ends -->
-
-            <!-- section 4:  Roles area-->
-            <section id="roles" class="section_4 section">
-                <h3>Looking to shine in a new role?</h3>
-                <p class="sec_dis">Check out our open positions below. No opportunity that catches your fancy? Email us at <a class="text--orange" href="mailto:careers@shoptrade.co">careers@shoptrade.co</a> with your
-                CV, and let’s talk</p>
-            </section>
+                </section>
+                <!-- Section 2 -->
+            
+                <!-- Section 3 => why you love it -->
+                <section class="section_3 section">
+                    <h3>Why you’ll love it at Powerplay</h3>
+                    <div class="section_wrapper">
+                        <div class="d--flex d--justSpaceBtw">
+                            <div class="section_text-card">
+                                <div class="section_text-head d--flex d--alignCenter">
+                                    <div class="head-icon">
+                                        <div class="icon--check"></div>
+                                    </div>
+                                    <p class="head-text">
+                                        Personal growth
+                                    </p>
+                                </div>
+                                <p class="section_text-para">
+                                    You’ll get several opportunities to explore your ideas and bring them to life at Powerplay
+                                </p>
+                            </div>
+                            <div class="section_text-card">
+                                <div class="section_text-head d--flex d--alignCenter">
+                                    <div class="head-icon">
+                                        <div class="icon--check"></div>
+                                    </div>
+                                    <p class="head-text">
+                                        Work with the best
+                                    </p>
+                                </div>
+                                <p class="section_text-para">
+                                    At Powerplay, the bar is high. You’ll be constantly challenged and motivated to work with some
+                                    of the best people in the
+                                    industry.
+                                </p>
+                            </div>
+                            <div class="section_text-card">
+                                <div class="section_text-head d--flex d--alignCenter">
+                                    <div class="head-icon">
+                                        <div class="icon--check"></div>
+                                    </div>
+                                    <p class="head-text">
+                                        Make a real impact
+                                    </p>
+                                </div>
+                                <p class="section_text-para">
+                                    We’re backed by global investors who help us digitise the construction process to save time,
+                                    effort, and money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section 3 ends -->
+            
+                <!-- section 4:  Roles area-->
+                <section id="roles" class="section_4 section">
+                    <h3>Looking to shine in a new role?</h3>
+                    <p class="sec_dis">Check out our open positions below. No opportunity that catches your fancy? Email us at <a
+                            class="text--orange" href="mailto:careers@shoptrade.co">careers@shoptrade.co</a> with your
+                        CV, and let’s talk</p>
+                    <div class="roles_search-form">
+                        {% snippet job_search_form %}
+                    </div>
+                    <div class="job_listing-area">
+                        <h3 class="page-title">
+                            {{"portal.jobs.title"| t}}
+                        </h3>
+                        {% if jobs.size > 0 %}
+                        <div class="job-role-list">
+                            {% assign available_positions = jobs | open_positions %}
+                            {% assign roles = jobs | map: "job_role" | uniq %}
+                            <ul class="open-list" {% if jobs.size <=10 and roles.size <=4 %} {% endif %}>
+                                {% for role in roles%}
+                                <li>
+                                    <input type="radio" name="accordion">
+                                    <div class="role-title">
+                                        <h5>
+                                            {{role.name | escape}}
+                                            <span class="mobile-role-count">
+                                                - {{ available_positions[role.name].size }} {{"portal.jobs.openings" | t}}
+                                            </span>
+                                        </h5>
+                                        <div class="role-count">
+                                            {{ available_positions[role.name].size }} {{"portal.jobs.openings" | t}}
+                                        </div>
+                                    </div>
+                                    <div class="hidden-content">
+                                        <ul class="job-list">
+                                            {% for job in jobs %}
+                                            {%if job.job_role.name == role.name%}
+                                            <li class="heading d--flex d--alignCenter">
+                                                <div class="list_flex-wrap d--flex d--justSpaceBtw">
+                                                    <div class="job-list-info">
+                                                        <a href="{{ job.job_url }}" class="job-title">{{ job.title | escape}}</a>
+                                                        <div class="job-location">
+                                                            <div class="location-info">
+                                                                <span class="job_type">
+                                                                    {{ job.job_type }}
+                                                                </span>
+                                                                <span class="center_dot"></span>
+                                                                <span class="job_location_wrap">
+                                                                    {% if job.remote != true %}
+                                                                    {% if job.branch.state != blank and job.branch.city != blank%}
+                                                                    {{ job.branch.city }}, {{job.branch.state}}
+                                                                    {% elsif job.branch.city != blank %}
+                                                                    {{ job.branch.city}}
+                                                                    {% elsif job.branch.state != blank %}
+                                                                    {{ job.branch.state}}
+                                                                    {% else %}
+                                                                    {{ job.branch.name }}
+                                                                    {% endif %}
+                                                                    {% else %}
+                                                                    Remote
+                                                                    {% endif %}
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <a href="{{ job.job_url }}" class="job-desc text">
+                                                                    {{ job.description | strip_html | slice: 0, 110 }}...
+                                                                </a> -->
+                                                    </div>
+                                                    <div class="job-cta-wrap">
+                                                        <a href="{{ job.job_url }}" class="location-info">
+                                                            Apply Now
+                                                        </a>
+                                                    </div>
+                                                </div>
+            
+                                            </li>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                                </li>
+                            </ul>
+                        </div>
+                        {% else %}
+                        <pre class="text-center">
+                                <h3 class="text-muted ">{{"portal.jobs.no_job"| t}}</h3>
+                                </pre>
+                        {% endif %}
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 
