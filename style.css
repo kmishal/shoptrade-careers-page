@@ -795,6 +795,10 @@ body {
     .card_icon .icon--style svg {
         max-width: 54px;
     }
+
+    .section_text {
+        margin-top: 12px;
+    }
     /* section 2 ends */
 
     /* section 3 starts */
