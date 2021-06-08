@@ -26,6 +26,10 @@ body {
     align-items: center;
 }
 
+.d--alignStart {
+    align-items: flex-start;
+}
+
 .main_wrapper {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -160,7 +164,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     cursor: pointer;
     transition: 0.3s ease-in;
 }
@@ -523,16 +527,21 @@ body {
 
 /* Section 4  ends*/
 
-@media only screen and (max-width: 900px) {
+/* Grid bo styling */
+
+.display_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 65px;
+    row-gap: 78px;
+}
+
+@media only screen and (max-width: 920px) {
     /* Section 1  */
 
     .block_wrapper {
         flex-direction: column;
-    }
-
-    .section_1 .block_left {
-        text-align: center;
-        max-width: 100%;
+        align-items: flex-start;
     }
 
     .section_1 .block_left .hide--mobile {
@@ -540,19 +549,48 @@ body {
     }
 
     .section_1 .block_right {
-        margin-right: 0px;
+        margin-left: 0px;
         margin-top: 20px;
     }
+    /* section 1 ends */
 
-    .section h1 {
-        font-size: 45px;
-        line-height: 1.2;
+    /* Section 2 styles */
+    .display_grid {
+        column-gap: 26px;
+        row-gap: 26px;
+    }
+    /* section 2 ends */
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper--container {
+        max-width: 608px;
     }
 
-    .section h2 {
+    /* section 1 starts */
+    .section_1 {
+        min-height: 423px;
+    }
+
+    .section_1 h1 {
+        font-size: 38px;
+        line-height: 1.2;
+        max-width: 410px;
+    }
+
+    .section_1 h2 {
         font-size: 18px;
-        margin: 10px auto 0;
-        max-width: 84%;
+        line-height: 27px;
+        margin-top: 20px;
+        max-width: 535px;
+    }
+
+    .section_1 .block_right .block_btn-style {
+        height: 50px;
+        border-radius: 50px;
+        max-width: 240px;
+        font-size: 18px;
+        line-height: 21px;
     }
 
     /* section 1 ends */
