@@ -5,7 +5,7 @@
 }
 
 body {
-    /* background-color: #000000; */
+    padding-bottom: 0px;
 }
 
 /* Common classes */
@@ -282,6 +282,7 @@ body {
 /* Section 4 */
 .section_4 {
     padding-top: 139px;
+    padding-bottom: 241px;
     border-top: 1px solid #ffffff;
 }
 
@@ -679,6 +680,7 @@ body {
     /* section 4 styles */
     .section_4 {
         padding-top: 80px;
+        padding-bottom: 160px;
     }
 
     .section_4 .job_listing-area {
@@ -802,6 +804,11 @@ body {
     /* section 3 ends */
 
     /* Section 4 starts */
+
+    .section_4 {
+        padding-bottom: 104px;
+    }
+
     .section .sec_dis {
         font-size: 18px;
         line-height: 27px;
