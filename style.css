@@ -536,6 +536,11 @@ body {
     row-gap: 78px;
 }
 
+/* !!! Remove when done!! */
+.section_4 {
+    display: none;
+}
+
 @media only screen and (max-width: 920px) {
     /* Section 1  */
 
@@ -572,9 +577,13 @@ body {
         min-height: 423px;
     }
 
-    .section_1 h1 {
+    .section h3,
+    .section h1 {
         font-size: 38px;
         line-height: 1.2;
+    }
+
+    .section_1 h1 {
         max-width: 410px;
     }
 
@@ -594,33 +603,80 @@ body {
     }
 
     /* section 1 ends */
+
+    /* Section 2 starts */
+    .section_2 {
+        padding-top: 80px;
+    }
+
+    .section_card {
+        min-height: 145px;
+    }
+
+    .card_icon .icon--style svg {
+        max-width: 57px;
+    }
+
+    .section_text {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+    /* section 2 ends */
 }
 
 @media only screen and (max-width: 520px) {
+    .block_wrapper {
+        align-items: center;
+    }
+
+    .wrapper--container {
+        padding: 0 36px;
+    }
+
     /* Section 1 */
 
     .section_1 {
         min-height: auto;
-        padding: 50px 0;
+        padding: 66px 0;
     }
+
+    .section h3,
     .section h1 {
         font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .section h1 {
+        text-align: center;
     }
 
     .section h2 {
         max-width: 100%;
         line-height: 1.4;
+        text-align: center;
     }
 
     .section_1 .block_right {
         max-width: 250px;
     }
 
-    .section_1 .block_right .block_btn-style {
-        height: 60px;
-        border-radius: 60px;
-        font-size: 20px;
+    /* section 1 ends */
+    /* section 2 starts */
+    .display_grid {
+        grid-template-columns: repeat(2, 2fr);
+        column-gap: 2em;
     }
 
-    /* section 1 ends */
+    .card_icon .icon--style svg {
+        max-width: 54px;
+    }
+    /* section 2 ends */
+
+    /* section 3 starts */
+    .section_3 {
+        margin-top: 80px;
+    }
+    /* section 3 ends */
 }
