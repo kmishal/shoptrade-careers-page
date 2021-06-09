@@ -86,6 +86,17 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+/* Header style */
+.main_wrapper .header {
+    box-shadow: none;
+}
+
+.main_wrapper .header .content {
+    width: 100%;
+}
+
+/* Header ends */
+
 /* Section 1 style */
 .section_1 {
     min-height: 493px;
@@ -873,4 +884,42 @@ body {
         margin-bottom: 20px;
     }
     /* section 4 ends */
+}
+
+/* Custom style for Job description page */
+
+.job-details-header {
+    background: #ed4e08;
+}
+
+.job-details-header .btn-custom,
+.job-details-header .btn-custom:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.btn-primary {
+    background: #ed4e08;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ed4e08;
+    border-color: transparent;
+}
+
+.application-btn .btn.btn-primary {
+    border: 1px solid #ed4e08;
+    color: #ed4e08;
+}
+
+.resume-upload:hover .btn.btn-primary {
+    border: 1px solid transparent;
+    color: #ffffff;
+    background: #ed4e08;
+}
+
+.resume-upload:hover .btn.btn-primary .required {
+    color: #ffffff;
 }
