@@ -13,6 +13,17 @@
 
 <body>
     <div class="main_wrapper">
+        <!-- Header section -->
+        <header class="header">
+                <div class="wrapper--container">
+                    <div class="content">
+                        <nav class="navbar banner-title">
+                            <span>{{portal |logo}}</span>
+                            <h4 class="brand-text">{{portal.name}}</h4>
+                        </nav>
+                    </div>
+                </div>
+        </header>
         <!-- section 1 => Banner area  -->
         <section class="section_1 section d--flex d--alignCenter" {{portal |banner}}>
             <div class="wrapper--container">
@@ -25,7 +36,7 @@
                     </div>
                     <div class="block_right">
                         <!-- Button text -->
-                        <a href="#roles" class="bg--orange block_btn-style">
+                        <a href="#roles" class="bg--orange block_btn-style scrollTo_Area">
                             View all jobs
                         </a>
                     </div>
@@ -1206,7 +1217,21 @@
         </div>
     </div>
 
-
+  
+    <!-- Do not add inside template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script>
+        
+        $('.scrollTo_Area').on('click', function (e) {
+            var anchorHash = this.hash;
+            if (anchorHash) {
+                $('html, body').animate({
+                    scrollTop: $(anchorHash).offset().top
+                }, 800);
+            }
+        });
+    </script>
 </body>
 
 </html>
