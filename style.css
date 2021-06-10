@@ -99,11 +99,52 @@ body {
     width: 100%;
 }
 
+.header_pos {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-top: 70px;
+    background: transparent;
+}
+
+.header_logo svg {
+    max-width: 198px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-link {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.header-link:last-child {
+    margin-right: 0px;
+}
+
+.header-link a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.header-link:hover a {
+    color: #ed4e08;
+}
+
+.header-link .link_arrow {
+    margin-left: 8px;
+}
+
 /* Header ends */
 
 /* Section 1 style */
 .section_1 {
-    min-height: 493px;
+    min-height: 644px;
     background-size: cover;
     background-position: center;
 }
@@ -123,6 +164,10 @@ body {
     font-weight: normal;
     margin-top: 26px;
     max-width: 588px;
+}
+
+.block_wrapper {
+    padding-top: 100px;
 }
 
 .section_1 .block_left {
@@ -605,6 +650,47 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    /* Header Section */
+    /* .header_flex {
+        flex-direction: column;
+    } */
+
+    .header_pos {
+        padding-top: 30px;
+    }
+
+    .header_links-wrap {
+        margin-top: 20px;
+    }
+
+    .block_wrapper {
+        padding: 70px 0 50px;
+    }
+
+    .header_logo svg {
+        max-width: 120px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header-link {
+        margin-right: 16px;
+    }
+
+    .header-link a {
+        font-size: 16px;
+    }
+
+    .header-link .link_arrow {
+        margin-left: 2px;
+    }
+
+    .link_arrow svg {
+        width: 12%;
+        height: auto;
+    }
+
+    /* Header section ends */
     .wrapper--container {
         max-width: 608px;
     }
@@ -769,19 +855,30 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
-    .block_wrapper {
-        align-items: center;
-    }
-
     .wrapper--container {
         padding: 0 36px;
     }
 
+    /* Header section  */
+    .header_links-wrap {
+        margin-top: 15px;
+    }
+
+    .header-link a {
+        font-size: 14px;
+        list-style: 1.2;
+    }
+    /* Header section ends */
     /* Section 1 */
 
     .section_1 {
         min-height: auto;
-        padding: 66px 0;
+        padding: 40px 0 66px;
+    }
+
+    .block_wrapper {
+        align-items: center;
+        padding: 35px 0 0;
     }
 
     .section h3,
