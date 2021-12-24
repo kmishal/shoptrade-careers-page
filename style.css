@@ -370,6 +370,7 @@ body {
     padding: 0;
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 .section_4 .input-search,
@@ -600,6 +601,23 @@ body {
     column-gap: 65px;
     row-gap: 78px;
 }
+
+
+.section_4 .job-search-form input[name="[remote]"]{
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.section_4 .job-search-form .remote-location-only {
+    position: absolute;
+    bottom: -46px;
+    left: 30px;
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width: 920px) {
     /* Section 1  */
@@ -985,6 +1003,20 @@ body {
         margin-bottom: 20px;
     }
     /* section 4 ends */
+
+    .section_4 .job-search-form input[name="[remote]"] {
+        bottom: -40px;
+        left: 0px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .section_4 .job-search-form .remote-location-only {
+        position: absolute;
+        bottom: -46px;
+        left: 23px;
+        font-size: 16px;
+    }
 }
 
 /* Custom style for Job description page */
