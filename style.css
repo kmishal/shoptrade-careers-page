@@ -167,11 +167,12 @@ body {
 }
 
 .block_wrapper {
-    padding-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .section_1 .block_left {
-    max-width: 588px;
+    max-width: 828px;
     width: 100%;
 }
 
@@ -181,7 +182,7 @@ body {
     margin-left: 20px;
 }
 
-.section_1 .block_right .block_btn-style {
+.section_1 .block_right .block_btn-style, .section_1 .block_left .block_btn-style {
     width: 100%;
     height: 72px;
     border-radius: 72px;
@@ -194,6 +195,12 @@ body {
     line-height: 28px;
     transition: 0.3s ease-in;
     text-decoration: none;
+}
+
+.section_1 .block_left .block_btn-style{
+    max-width: 340px;
+    width: 100%;
+    margin-top: 30px;
 }
 
 /* .section_1 .block_right .block_btn-style:hover {
@@ -246,7 +253,7 @@ body {
     color: #ffffff;
     font-weight: normal;
     letter-spacing: 0;
-    max-width: 232px;
+    max-width: 233px;
     width: 100%;
     margin-top: 45px;
     transition: 0.3s ease-in;
@@ -618,6 +625,19 @@ body {
     font-size: 20px;
 }
 
+.section_1 .section_para{
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 26px;
+    max-width: 728px;
+}
+
+.section_1 .section_para p:last-child{
+    margin-top: 15px;
+}
+
 
 @media only screen and (max-width: 920px) {
     /* Section 1  */
@@ -682,7 +702,7 @@ body {
     }
 
     .block_wrapper {
-        padding: 70px 0 50px;
+        padding: 90px 0 50px;
     }
 
     .header_logo svg {
@@ -728,14 +748,14 @@ body {
         max-width: 410px;
     }
 
-    .section_1 h2 {
+    .section_1 h2, .section_1 .section_para {
         font-size: 18px;
         line-height: 27px;
         margin-top: 20px;
         max-width: 535px;
     }
 
-    .section_1 .block_right .block_btn-style {
+    .section_1 .block_right .block_btn-style, .section_1 .block_left .block_btn-style {
         height: 50px;
         border-radius: 50px;
         max-width: 240px;
@@ -909,14 +929,19 @@ body {
         text-align: center;
     }
 
-    .section h2 {
+    .section h2, .section_1 .section_para {
         max-width: 100%;
         line-height: 1.4;
         text-align: center;
     }
 
-    .section_1 .block_right {
+    .section_1 .block_right, .section_1 .block_left .block_btn-style {
         max-width: 250px;
+    }
+
+    .section_1 .block_left .block_btn-style{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* section 1 ends */
