@@ -39,15 +39,29 @@ body {
 .d--alignStart {
     align-items: flex-start;
 }
+.text-italic{
+    font-style: italic;
+}
 
 .main_wrapper {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 70px;
+}
+
+.section h1,.section h2,.section h3,.section h4{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;;
 }
 
 .section{
     background: #ffffff;
+}
+
+.section h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
 }
 
 .f--bold {
@@ -77,6 +91,10 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.text--center{
+    text-align: center;
 }
 
 /* Common style ends */
@@ -166,6 +184,7 @@ body {
     font-weight: normal;
     margin-top: 37px;
     max-width: 636px;
+    font-weight: 500;
 }
 
 .block_wrapper {
@@ -301,10 +320,8 @@ body {
     transition: 0.3s ease-in;
 }
 
-.section h3{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+.section_2 h3{
+    color: #ffffff;
 }
 
 .section_2 p{
@@ -343,13 +360,18 @@ body {
 
 /* Section 3 styles */
 .section_3 {
-    padding: 50 0 60px;
+    padding: 50px 0 60px;
+}
+
+.section_3 h3{
+    color: #000000;
 }
 
 .section_3 .top_content p{
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    color: var(--color-black);
 }
 
 .section_3 .section__para{
@@ -376,6 +398,7 @@ body {
     cursor: pointer;
     margin-right: 15px;
     transition: all 0.3s ease-out;
+    color: var(--color-black);
 }
 
 .section_3 .accordion_header ul li:hover,.section_3 .accordion_header li.item_active {
@@ -483,20 +506,17 @@ body {
     font-size: 22px;
     line-height: 33px;
     margin-top: 13px;
+    color: #ffffff;
 }
 
 .section_4 .perks_item p{
     margin-top: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
 
 }
 
-.section_5{
-    padding: 50px 0 53px;
-
-}
 
 /*  Roles Filter areas style */
 
@@ -731,6 +751,91 @@ body {
 
 /* Section 4  ends*/
 
+.section_5{
+    padding: 50px 0 53px;
+}
+
+.section_5 .testimonails--wrapper {
+    margin-top: 63px;
+}
+
+.section_5 .testimonails--wrapper .swiper{
+    height: 378px;
+}
+
+.section_5 .testimonial_item{
+    background: #F8F8F8;
+    border-radius: 20px;
+    height: 100%;
+    padding: 28px;
+    flex-direction: column;
+}
+
+.section_5 .testimonial_item p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.section_5  .user_info-wrap{
+    margin-top: auto;
+}
+
+.section_5  .user_info-wrap .user_name p:last-child{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.section_5  .user_info-wrap .user_location {
+    margin-left: auto;
+}
+.section_5  .user_info-wrap .user_img{
+    margin-right: 15px;
+    width: 77px;
+    height: 77px;
+}
+
+.section_5  .user_info-wrap .user_img img{
+    width: 100%;
+    height: auto;
+}
+
+.section_5  .user_info-wrap .user_location p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.section_5  .user_info-wrap .user_location p span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Section 6 styles */
+
+.section_6 .content_wrapper{
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 56px 0;
+}
+
+.section_6  h3{
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.section_6 .content_wrapper p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
 /* Grid bo styling */
 
 .display_grid {
@@ -783,6 +888,7 @@ body {
 
 .vertical_text-swiper p.swiper-slide{
     font-size: 70px;
+    color: var(--color-black)
 }
 
 
