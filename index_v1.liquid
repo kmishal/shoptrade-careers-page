@@ -71,7 +71,7 @@
             <div class="wrapper--container">
                 <h3>What is ShopTrade?</h3>
                 <p>ShopTrade is a full-service ecommerce agency and a featured official Shopify Plus Service partner.We are an agile, motivated and a people-focused team equipped with diverse skills to adapt and succeed in the fast changing world of commerce.</p>
-                <a href="#">View more about us <span class="link_arrow">
+                <a href="https://shoptrade.co/about" taget="_blank">View more about us <span class="link_arrow">
                             <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.393299 0.290634C0.143496 0.511768 0.000309404 0.82991 0.000309419 1.16355C0.000309431 1.44667 0.103206 1.71956 0.289783 1.93186L4.25439 6.44349L0.295052 10.8917C0.104601 11.1051 -6.33341e-08 11.3802 -5.08366e-08 11.6661C-3.63477e-08 11.9976 0.141947 12.3143 0.38989 12.5353C0.603121 12.7248 0.877253 12.8291 1.16146 12.8291C1.49293 12.8291 1.80905 12.687 2.02833 12.4398L6.6723 7.22249C6.86275 7.00926 6.96735 6.7342 6.96735 6.44829C6.96735 6.16486 6.86461 5.89182 6.67756 5.67952L2.0336 0.395235C1.82858 0.161859 1.54515 0.0223913 1.23584 0.00240034C0.926221 -0.0172797 0.62745 0.0845318 0.393299 0.290634Z" fill="white"/>
                             </svg>
@@ -79,12 +79,13 @@
                 </a>
             </div>
         </section>
-        <section class="section section_3">
+        <section class="section section_3" id="roles">
             <div class="wrapper--container">
                 <div class="top_content">
                     <h3>Take the next big leap in your career! </h3>
                     <p class="section__para">We are on the lookout for solution-oriented, disruptive minds to be a part of our dynamic, cross-functional teams, where the only thing that matters is the ability to be creative and drive results.</p>
-                    <p>We are hiring for <span class="f--bold text--black">{{jobs.size}}</span> positions in <span class="f--bold text--black">3</span> locations</p>
+                    {% assign job_size = jobs.size %}
+                    <p>We are hiring for <span class="f--bold text--black">{% if job_size < 10 %}{{job_size | prepend: '0'}}{% else %}{{job_size}}{% endif %}</span> positions in <span class="f--bold text--black">2</span> locations</p>
                 </div>
                 <div class="bottom_content">
                     <div class="accordion_header">
@@ -92,11 +93,8 @@
                         {% assign available_positions = jobs | open_positions %}
                         <ul class="d--flex">
                             {% for role  in roles  %}
-                                {% if forloop.first == true %}
-                                    <li class="head_item item_active"  data-id={{role.name | escape | downcase }}>{{role.name | escape}}(<span>{{ available_positions[role.name].size }}</span>)</li>
-                                {% else %}
-                                    <li class="head_item"  data-id={{role.name | escape | downcase }}>{{role.name | escape}}(<span>{{ available_positions[role.name].size }}</span>)</li>
-                                {% endif %}
+                                    {% assign role_size = available_positions[role.name].size %}
+                                    <li class="head_item  {% if forloop.first == true %} item_active {% endif %}"  data-id={{role.name | escape | downcase }}>{{role.name | escape}}(<span>{% if role_size < 10 %}{{ available_positions[role.name].size | prepend: '0'}}{% else %}{{ available_positions[role.name].size }}{% endif %}</span>)</li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -106,7 +104,7 @@
                                 <div class="item_container">
                                 {% for job in jobs %}
                                     {%if job.job_role.name == role.name%}
-                                        <a href={{ job.job_url }} class="card_item">
+                                        <a href={{ job.job_url }} target="_blank" class="card_item">
                                             <p class="card_position">{{ job.title | escape}}</p>
                                             <p class="card_location">{{ job.location }}</p>
                                         </a>

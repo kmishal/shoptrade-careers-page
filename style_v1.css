@@ -432,9 +432,11 @@ body {
     text-decoration: none;
     padding: 20px 30px 21px; 
     background: #F8F8F8;
-    display: block;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     transition: background 0.2s ease-out;
+
 }
 
 .section_3 .card_item p{
@@ -452,10 +454,11 @@ body {
     width: 100%;
     color: var(--color-black);
     transition: all 0.2s ease-out;
+    margin-bottom: 15px;
 }
 
 .section_3 .card_item p.card_location{
-    margin-top: 17px;
+    margin-top: auto;
     color: #7E7E7E;
     transition: all 0.2s ease-out;
 }
