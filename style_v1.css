@@ -381,7 +381,7 @@ body {
 }
 
 .section_3 .bottom_content{
-    margin-top: 33px;
+    /* margin-top: 33px; */
     min-height: 400px;
 }
 
@@ -399,6 +399,7 @@ body {
     margin-right: 15px;
     transition: all 0.3s ease-out;
     color: var(--color-black);
+    margin-top: 33px;
 }
 
 .section_3 .accordion_header ul li:hover,.section_3 .accordion_header li.item_active {
@@ -793,6 +794,7 @@ body {
 
 .section_5  .user_info-wrap .user_location {
     margin-left: auto;
+    flex-shrink: 0;
 }
 .section_5  .user_info-wrap .user_img{
     margin-right: 15px;
@@ -866,7 +868,7 @@ body {
 
 .section_1 .section_para p{
     font-size: 20px;
-    line-height: 34px;
+    line-height: 40px;
     color: #000000;
     font-weight: normal;
     /* margin-top: 26px; */
@@ -899,8 +901,13 @@ body {
     /* Section 1  */
 
     .block_wrapper {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section_1 .block_left{
+        text-align: center;
+        margin-top: 30px;
     }
 
     .section_1 .block_left .hide--mobile {
@@ -911,16 +918,64 @@ body {
         margin-left: 0px;
         margin-top: 20px;
     }
+    .section_1 .block_left .block_btn-style, .section.section_1 h2{
+        margin: 0 auto;
+    }
+
+    .section_1 .section_para {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .section_1 .block_left .block_btn-style{
+        margin-top: 20px
+    }
     /* section 1 ends */
 
-    /* Section 2 styles */
-    .display_grid {
-        column-gap: 26px;
-        row-gap: 26px;
+    /* Section 2 starts */
+    .section_2{
+        padding: 25px 0 34px;
     }
-    /* section 2 ends */
 
+    .section_2 p{
+        margin-top: 15px;
+    }
+
+    .section_2 a{
+        margin-top: 10px;
+    }
+    /* Section 2 ends */
+
+    /* section 3 start */
+    .section_3{
+        padding: 30px 0 20px;
+    }
+
+    .section_3 .section__para{
+        margin-bottom: 10px;
+    }
+
+    .section_3 .accordion_body .item_container{
+        gap: 25px;
+    }
+
+    .section_3 .accordion_header ul li{
+        margin-top: 20px;
+    }
+    /* Section 3 ends */
     /* section 4 starts */
+
+    .section_4{
+        padding: 25px 0 35px;
+    }
+
+    .section_4 .perks_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section_5 .testimonails--wrapper .swiper{
+        height: 258px;
+    }
 
     .roles_search-form {
         margin-top: 15px;
@@ -941,6 +996,32 @@ body {
         margin-top: 45px;
     }
     /* section 4 ends */
+
+    /* section 5 starts */
+    .section_5{
+        padding: 30px 0;
+    }
+
+    .section_5 .testimonails--wrapper{
+        margin-top: 35px;
+    }
+
+    .section_5 .testimonial_item p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .section_5 .user_info-wrap .user_img{
+        width: 48px;
+        height: 48px;
+    }
+    /* section 5 ends */
+
+    /* Section 6 starts */
+    .section_6 .content_wrapper{
+        padding: 25px 0;
+    }
+    /* section 6 ends */
 }
 
 @media only screen and (max-width: 768px) {
@@ -985,9 +1066,9 @@ body {
     }
 
     /* Header section ends */
-    .wrapper--container {
+    /* .wrapper--container {
         max-width: 608px;
-    }
+    } */
 
     /* section 1 starts */
     .section_1 {
