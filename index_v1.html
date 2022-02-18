@@ -201,7 +201,7 @@
                             <!-- Slides -->
                             <div class="swiper-slide">
                                 <div class="testimonial_item d--flex">
-                                    <p class="text-italic">" ShopTrade is a great place to work, it provides a very conducive environment to learn, grow and prosper. Every employee, irrespective of their position, is given a chance to be heard. Peers at ShopTrade are extremely talented and are like one big family who are always around to support at times of need. They value your opinions and feedback and always encourage you to think out of the box. "</p>
+                                    <p class="text-italic main_testimonail">" ShopTrade is a great place to work, it provides a very conducive environment to learn, grow and prosper. Every employee, irrespective of their position, is given a chance to be heard. Peers at ShopTrade are extremely talented and are like one big family who are always around to support at times of need. They value your opinions and feedback and always encourage you to think out of the box. "</p>
                                     <div class="user_info-wrap d--flex d--alignCenter">
                                         <div class="user_img">
                                             <img src="https://shoptrade-assets.s3.ap-south-1.amazonaws.com/career-site-images/users/sumayya_ishaq.png" alt="Sumayya Ishaq">
@@ -218,7 +218,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testimonial_item d--flex">
-                                    <p class="text-italic">" At ShopTrade it's not just building your technical skills but also evolving your people skills. It’s a wonderful startup environment I adore. “</p>
+                                    <p class="text-italic main_testimonail">" At ShopTrade it's not just building your technical skills but also evolving your people skills. It’s a wonderful startup environment I adore. “</p>
                                     <div class="user_info-wrap d--flex d--alignCenter">
                                         <div class="user_img">
                                             <img src="https://shoptrade-assets.s3.ap-south-1.amazonaws.com/career-site-images/users/kaustubh_mishal.png" alt="Kaustubh Mishal">
@@ -235,7 +235,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testimonial_item d--flex">
-                                    <p class="text-italic">" Shoptrade has given me the opportunity to upskill as well as enhance my capabilities as a Developer. I learn something new everyday, which helps me grow in my role and I’m happy to be a part of this team. “</p>
+                                    <p class="text-italic main_testimonail">" Shoptrade has given me the opportunity to upskill as well as enhance my capabilities as a Developer. I learn something new everyday, which helps me grow in my role and I’m happy to be a part of this team. “</p>
                                     <div class="user_info-wrap d--flex d--alignCenter">
                                         <div class="user_img">
                                             <img src="https://shoptrade-assets.s3.ap-south-1.amazonaws.com/career-site-images/users/darshika_pillai.png" alt="Darshika Pillai">
@@ -252,7 +252,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testimonial_item d--flex">
-                                    <p class="text-italic">" Shoptrade has given me the opportunity to upskill as well as enhance my capabilities as a Developer. I learn something new everyday, which helps me grow in my role and I’m happy to be a part of this team. “</p>
+                                    <p class="text-italic  main_testimonail">" Shoptrade has given me the opportunity to upskill as well as enhance my capabilities as a Developer. I learn something new everyday, which helps me grow in my role and I’m happy to be a part of this team. “</p>
                                     <div class="user_info-wrap d--flex d--alignCenter">
                                         <div class="user_img">
                                             <img src="https://shoptrade-assets.s3.ap-south-1.amazonaws.com/career-site-images/users/akash_banakar.png" alt="Akash Banakar">
@@ -268,11 +268,17 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- If we need navigation buttons -->
-                        <!-- <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div> -->
                     </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="slide__interation-wrapper">
+                            <div class="js_slider-button-prev slider_arrow-style">
+                                <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.310933 12.6605C0.725512 13.1142 1.39522 13.1142 1.80979 12.6605L6.68907 7.32087C7.10364 6.86717 7.10364 6.13429 6.68907 5.6806L1.80979 0.341001C1.39521 -0.11269 0.725511 -0.11269 0.310932 0.341001C-0.103646 0.794693 -0.103646 1.52758 0.310932 1.98127L4.43546 6.50655L0.310933 11.0202C-0.103645 11.4739 -0.0930153 12.2184 0.310933 12.6605Z" fill="black"/></svg>
+                            </div>
+                            <div class="js_slider-pagination"></div>
+                            <div class="js_slider-button-next slider_arrow-style">
+                                <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.310933 12.6605C0.725512 13.1142 1.39522 13.1142 1.80979 12.6605L6.68907 7.32087C7.10364 6.86717 7.10364 6.13429 6.68907 5.6806L1.80979 0.341001C1.39521 -0.11269 0.725511 -0.11269 0.310932 0.341001C-0.103646 0.794693 -0.103646 1.52758 0.310932 1.98127L4.43546 6.50655L0.310933 11.0202C-0.103645 11.4739 -0.0930153 12.2184 0.310933 12.6605Z" fill="black"/></svg>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -300,13 +306,16 @@
 
             var swiper = new Swiper("#testimonails-swiper", {
                 // autoplay: true,
-                autoHeight: true,
-                loop: true,
+                // loop: true,
                 slidesPerView: 1,
                 spaceBetween: 20,
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                    nextEl: '.js_slider-button-next',
+                    prevEl: '.js_slider-button-prev',
+                },
+                pagination: {
+                    el: '.js_slider-pagination',
+                    type: 'bullets',
                 },
                 breakpoints:{
                     980:{
