@@ -518,7 +518,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-
+    color: #D9D9D9;
 }
 
 
@@ -821,6 +821,9 @@ body {
 /* Section 6 styles */
 
 .section_6 .content_wrapper{
+    background: url('https://shoptrade-assets.s3.ap-south-1.amazonaws.com/career-site-images/bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 20px;
     color: #ffffff;
     padding: 56px 20px;
@@ -839,6 +842,14 @@ body {
     line-height: 30px;
     font-weight: 500;
     margin-top: 30px;
+}
+
+.section_6 a{
+    text-decoration: none;
+}
+
+.section_6 a:hover{
+    text-decoration: underline;
 }
 
 /* Grid bo styling */
