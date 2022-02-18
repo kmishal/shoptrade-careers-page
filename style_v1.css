@@ -823,7 +823,7 @@ body {
 .section_6 .content_wrapper{
     border-radius: 20px;
     color: #ffffff;
-    padding: 56px 0;
+    padding: 56px 20px;
 }
 
 .section_6  h3{
@@ -1019,214 +1019,110 @@ body {
 
     /* Section 6 starts */
     .section_6 .content_wrapper{
-        padding: 25px 0;
+        padding: 25px 20px;
     }
     /* section 6 ends */
 }
 
 @media only screen and (max-width: 768px) {
     /* Header Section */
-    /* .header_flex {
-        flex-direction: column;
-    } */
 
-    .header_pos {
-        padding-top: 30px;
-    }
-
-    .header_links-wrap {
-        margin-top: 20px;
-    }
-
-    .block_wrapper {
-        padding: 90px 0 50px;
-    }
-
-    .header_logo svg {
-        max-width: 120px;
+    /* section 1 styles */
+    .header_logo img {
+        max-width: 198px;
         width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
-    .header-link {
-        margin-right: 16px;
+    .vertical_text-swiper{
+        height: 80px;
     }
 
-    .header-link a {
-        font-size: 16px;
+    .block_wrapper{
+        padding-top: 104px;
     }
 
-    .header-link .link_arrow {
-        margin-left: 2px;
+    .section_1 .block_right{
+        max-width: 400px;
     }
 
-    .link_arrow svg {
-        width: 12%;
-        height: auto;
+    .vertical_text-swiper p.swiper-slide{
+        font-size: 50px;
     }
 
-    /* Header section ends */
-    /* .wrapper--container {
-        max-width: 608px;
-    } */
-
-    /* section 1 starts */
-    .section_1 {
-        min-height: 423px;
+    .section_1 .section_para{
+        margin: 0  0 10px 0 ;
     }
 
-    .section h3,
-    .section h1 {
-        font-size: 36px;
-        line-height: 1.2;
-    }
-
-    .section_1 h1 {
-        max-width: 410px;
-    }
-
-    .section_1 h2{
-        font-size: 18px;
-        line-height: 27px;
-        margin-top: 20px;
-        max-width: 535px;
-    }
-
-    .section_1 .block_right .block_btn-style, .section_1 .block_left .block_btn-style {
-        height: 50px;
-        border-radius: 50px;
-        max-width: 240px;
-        font-size: 18px;
-        line-height: 21px;
-    }
-
-    /* section 1 ends */
-
-    /* Section 2 starts */
-    .section_2 {
-        padding-top: 80px;
-    }
-
-    .section_card {
-        min-height: 145px;
-    }
-
-    .card_icon .icon--style svg {
-        max-width: 57px;
-    }
-
-    .section_text {
-        font-size: 12px;
-        line-height: 1.5;
-        margin-top: 20px;
-    }
-
-    /* section 2 ends */
-
-    /* Section 3 starts */
-    .section_3 {
-        margin: 80px 0;
-    }
-
-    .section_3 h3 {
-        max-width: 100%;
-        text-align: center;
-        line-height: 1.4;
-    }
-
-    .section_3 .section_wrapper {
-        margin-top: 0px;
-    }
-
-    .section3_flex {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section_text-card {
-        margin-top: 50px;
-        margin-right: 0;
-    }
-
-    .section_text-head {
-        justify-content: center;
-    }
-
-    .section_text-para {
-        text-align: center;
-    }
-    /* section 3 ends */
-
-    /* section 4 styles */
-    .section_4 {
-        padding-top: 80px;
-        padding-bottom: 160px;
-    }
-
-    .section_4 .job_listing-area {
-        margin-top: 80px;
-    }
-
-    .section .job-role-list > ul > li {
-        padding: 46px 0 0px;
-    }
-
-    .section .job-role-list .role-title h5 {
+    .section_1 .section_para p{
         font-size: 32px;
     }
 
-    .section .job-list > li {
-        padding: 20px 30px;
-        min-height: 123px;
+    .section_1 .block_right .block_btn-style, .section_1 .block_left .block_btn-style{
+        font-size: 20px;
+        max-width: 297px;
+        height: 61px;
     }
 
-    .section .job-list .job-title {
+    /* section 1 styles ends */
+
+    /* Section 2 styles starts */
+    .section h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .section_2 p{
         font-size: 18px;
     }
 
-    .section .job_type,
-    .section .job_location_wrap {
-        font-size: 12px;
+    .section_2 a{
+        font-size: 20px;
+    }
+    /* Section 2 styles ends */
+
+    /* Section 3 starts */
+    .section_3 .top_content p{
+        font-size: 18px;
     }
 
-    .section .job-cta-wrap a.location-info {
-        min-width: 113px;
-        font-size: 12px;
-        min-height: 33px;
-        border-radius: 33px;
+    .section_3 .accordion_header ul li{
+        padding: 8px 27px;
+        font-size: 18px;
     }
 
-    .section .center_dot {
-        margin: 0 5px 0;
+    .section_3 .accordion_body .item_container{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 41px;
+    }
+    /* Section 3 ends */
+
+    /* Section 4 styles */
+    .section_4 .perks_wrapper{
+        margin-top: 35px;
+        gap: 30px;
     }
 
-    .section .job-list-info,
-    .section .job-location {
-        width: 100%;
+    .section_4 .perks_item h4{
+        font-size: 18px;
+        line-height: 25px;
     }
 
-    .section .job-list .job-location {
-        padding-top: 10px;
-        margin-top: 0px;
-        border: 0;
+    .section_4 .perks_item p{
+        margin-top: 11px;
+        font-size: 16px; 
     }
+    /* Section 4 ends */
 
-    .section .mobile-role-count {
-        display: none;
-    }
 
-    .section .job-list .location-info {
-        width: 100%;
+    /* Section 5 starts */
+    .section_6 .content_wrapper p{
+        font-size: 18px;
+        line-height: 26px;
     }
+    /* Section 5 ends */
 
-    .section .page-title {
-        text-align: left;
-    }
-
-    .section .sec_dis {
-        line-height: 34px;
-    }
-    /* section 4 ends */
 }
 
 @media only screen and (max-width: 520px) {
