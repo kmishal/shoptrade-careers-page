@@ -764,7 +764,7 @@ body {
 }
 
 .section_5 .testimonails--wrapper .swiper{
-    height: 337px;
+    height: 400px;
 }
 
 .section_5 .testimonial_item{
@@ -777,14 +777,12 @@ body {
 
 .section_5 .testimonial_item p{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 33px;
 }
 
 .section_5 .testimonial_item p.main_testimonail{
-    height: 280px;
-    overflow-y: scroll;
-    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .section_5  .user_info-wrap{
@@ -1055,7 +1053,7 @@ body {
     }
 
     .section_5 .testimonails--wrapper .swiper{
-        height: 318px;
+        height: 348px;
     }
 
     .roles_search-form {
@@ -1088,7 +1086,7 @@ body {
     }
 
     .section_5 .testimonial_item p{
-        font-size: 18px;
+        font-size: 18px !important;
         line-height: 30px;
     }
 
@@ -1243,6 +1241,7 @@ body {
 
     .section_1 .section_para p{
         font-size: 25px;
+        line-height: 30px;
     }
 
     .section.section_1 h2{
@@ -1333,7 +1332,7 @@ body {
 
     /* Section 5 starts */
     .section_5 .testimonial_item p{
-        font-size: 14px;
+        font-size: 14px !important;
         line-height: 21px;
     }
 
@@ -1342,7 +1341,7 @@ body {
     }
 
     .section_5 .testimonails--wrapper .swiper{
-        height: 222px;
+        height: 300px;
     }
 
     .section_5 .user_info-wrap .user_name p:last-child{
